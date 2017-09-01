@@ -1,4 +1,4 @@
-# Kids Portal: A Child-safe Web Browser Using a simple web scraping technique
+# Kids Portal v2: A Child-safe Web Browser Using a simple web scraping technique
 Uses a simple Web Scraping Technique
 
 A child-safe web browser, where no parents will ever be worried again for the safety of their children while surfing the internet. Kids Portal is designed especially for kids 3 to 8 years old, an easy-to-use and simplistic internet browser software. Kids Portal is an extra layer of protection to keep your kids safe and prevent them from any inappropriate or explicit adult material on the internet. Kids Portal's robust protection is what separates it from any existing similar software. After downloading and installing Kids Portal, an initial setup for settings and preferences will be prompted to the parent setting up the software. A settings panel where themes can be changed, level of protection be adjusted, and reports be viewed.
@@ -9,5 +9,4 @@ Kids Portal's data scraping algorithm runs real time, even after the page has su
 
 A report panel that is only viewable to the parent admin, where full reports of user accessing or encountering prohibited parameters are shown. A help panel that is only viewable to the parent admin, where manual of the Kids Portal can be found.
 
-Jae Allen R. Nuguid
-September 01, 2017
+Jae Allen R. Nuguid - September 01, 2017
