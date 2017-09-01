@@ -7,8 +7,7 @@ Kids Portal will automatically block the website or page, making it unviewable t
 
 Kids Portal's data scraping algorithm runs real time, even after the page has successfully loaded to the browser, to ensure real time protection and prevention from any inappropriate or explicit material that may pop-up.
 
-A report panel that is only viewable to the parent admin, where full reports of user accessing or encountering prohibited parameters are shown.
+A report panel that is only viewable to the parent admin, where full reports of user accessing or encountering prohibited parameters are shown. A help panel that is only viewable to the parent admin, where manual of the Kids Portal can be found.
 
-A help panel that is only viewable to the parent admin, where manual of the Kids Portal can be found.
-
-Kids Portal also includes basic functions such as bookmarking a page, browser history, home page, and tabbed browsing.
+Jae Allen R. Nuguid
+September 01, 2017
