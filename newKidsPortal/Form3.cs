@@ -82,7 +82,7 @@ namespace newKidsPortal
         private void checkEnglish()
         {
             running = true;
-            checkTagalog();
+            checkTagalog    ();
             foreach (string line in english)
             {
                 if (bre) break;

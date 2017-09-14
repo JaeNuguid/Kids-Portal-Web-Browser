@@ -7,3 +7,16 @@ c:\users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newK
 c:\users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\obj\Debug\newKidsPortal.pdb
 C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\newKidsPortal\newKidsPortal\bin\Debug\newKidsPortal.pdb
 C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\newKidsPortal\newKidsPortal\obj\Debug\newKidsPortal.csprojResolveAssemblyReference.cache
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\newKidsPortal\Kids-Portal-Version-2\newKidsPortal\bin\Debug\newKidsPortal.exe.config
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\newKidsPortal\Kids-Portal-Version-2\newKidsPortal\bin\Debug\newKidsPortal.exe
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\newKidsPortal\Kids-Portal-Version-2\newKidsPortal\bin\Debug\newKidsPortal.pdb
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\newKidsPortal\Kids-Portal-Version-2\newKidsPortal\obj\Debug\newKidsPortal.csprojResolveAssemblyReference.cache
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\newKidsPortal\Kids-Portal-Version-2\newKidsPortal\obj\Debug\newKidsPortal.KidsPortal.resources
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\newKidsPortal\Kids-Portal-Version-2\newKidsPortal\obj\Debug\newKidsPortal.Login.resources
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\newKidsPortal\Kids-Portal-Version-2\newKidsPortal\obj\Debug\newKidsPortal.Setting.resources
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\newKidsPortal\Kids-Portal-Version-2\newKidsPortal\obj\Debug\newKidsPortal.Detection.resources
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\newKidsPortal\Kids-Portal-Version-2\newKidsPortal\obj\Debug\newKidsPortal.Properties.Resources.resources
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\newKidsPortal\Kids-Portal-Version-2\newKidsPortal\obj\Debug\newKidsPortal.csproj.GenerateResource.Cache
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\newKidsPortal\Kids-Portal-Version-2\newKidsPortal\obj\Debug\newKidsPortal.csproj.CoreCompileInputs.cache
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\newKidsPortal\Kids-Portal-Version-2\newKidsPortal\obj\Debug\newKidsPortal.exe
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\newKidsPortal\Kids-Portal-Version-2\newKidsPortal\obj\Debug\newKidsPortal.pdb
