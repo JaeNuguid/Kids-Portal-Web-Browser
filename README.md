@@ -1,12 +1,17 @@
-# Kids Portal v2: A Child-safe Web Browser Using a simple web scraping technique
-Uses a simple Web Scraping Technique
+# Kids Portal: A Child-safe Web Browser 
 
-A child-safe web browser, where no parents will ever be worried again for the safety of their children while surfing the internet. Kids Portal is designed especially for kids 3 to 8 years old, an easy-to-use and simplistic internet browser software. Kids Portal is an extra layer of protection to keep your kids safe and prevent them from any inappropriate or explicit adult material on the internet. Kids Portal's robust protection is what separates it from any existing similar software. After downloading and installing Kids Portal, an initial setup for settings and preferences will be prompted to the parent setting up the software. A settings panel where themes can be changed, level of protection be adjusted, and reports be viewed.
+## What is it?
+Kids Portal is a lightweight web browser based on Chromium. It is not meant to replace full featured, robust desktop web browsers such as Google Chrome. Kids Portal functionality is intentionally limited to the protection of the user.
+Kids Portal is a child-safe web browser, where it aims to help parents to worry less for the safety of their children while surfing the internet. It is an easy-to-use and lightweight internet browser software. Kids Portal is an extra layer of protection to keep your kids safe and prevent them from being exposed to any inappropriate or explicit adult material on the internet. Kids Portal's real-time protection is what separates it from any existing similar software. This software supports English and Tagalog language for real-time protection, although you can add different languages as well.
 
-Kids Portal will automatically block the website or page, making it unviewable to the user, if it detects a prohibited parameter. Using Kids Portal's data scraping algorithm, the parameters are data being extracted from the page that is being loaded. The default list of prohibited terms consists of more than 1000 terms, and parents have the option to go to the settings to add more.
+## What does it do?
+Firstly, unlike any similar web browser, with an intention to protect the user from inappropriate content, Kids Portal does not have a database of flagged or malicious websites, it does not have a list of URLs to block. What Kids Portal have is a locally stored library of words, words that are inappropriate such as profanities and swear words, words that children should not be exposed to.
 
-Kids Portal's data scraping algorithm runs real time, even after the page has successfully loaded to the browser, to ensure real time protection and prevention from any inappropriate or explicit material that may pop-up.
+## How?
+Whenever the user is surfing online, Kids Portal is running an algorithm that extracts or scrapes the text from the web page, and then checking it if it contains an inappropriate word. If it does, the page will not be blocked, but the user will not be able to access it. A bit of contradiction, but the simple explanation is, it does not block any website, but it blocks the page that contains a bad word. Meaning, the blocking is dependent upon the content, not the URL or such.
 
-A report panel that is only viewable to the parent admin, where full reports of user accessing or encountering prohibited parameters are shown. A help panel that is only viewable to the parent admin, where manual of the Kids Portal can be found.
+
+
+
 
 Jae Allen R. Nuguid - September 01, 2017
