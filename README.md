@@ -1,4 +1,9 @@
 # Kids Portal: A Child-safe Web Browser 
+<center>
+<a href="https://www.linkedin.com/in/jaenuguid/">
+  <img src="https://github.com/JaeNuguid/Kids-Portal-Version-2/blob/master/newKidsPortal/Resources/KidsPortal.png?raw=true" width="250" height="250"/>
+</a>
+</center>
 
 ## What is it?
 Kids Portal is a lightweight web browser based on Chromium. It is not meant to replace full featured, robust desktop web browsers such as Google Chrome. Kids Portal functionality is intentionally limited to the protection of the user.
@@ -10,8 +15,8 @@ Firstly, unlike any similar web browser, with an intention to protect the user f
 ## How?
 Whenever the user is surfing online, Kids Portal is running an algorithm that extracts or scrapes the text from the web page, and then checking it if it contains an inappropriate word. If it does, the page will not be blocked, but the user will not be able to access it. A bit of contradiction, but the simple explanation is, it does not block any website, but it blocks the page that contains a bad word. Meaning, the blocking is dependent upon the content, not the URL or such.
 
-
-
+## Installation
+soon...
 
 
 Jae Allen R. Nuguid - September 01, 2017
