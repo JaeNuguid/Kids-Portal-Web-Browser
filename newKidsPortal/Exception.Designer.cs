@@ -116,6 +116,7 @@
             this.list.ScrollAlwaysVisible = true;
             this.list.Size = new System.Drawing.Size(604, 190);
             this.list.TabIndex = 21;
+            this.list.SelectedIndexChanged += new System.EventHandler(this.list_SelectedIndexChanged);
             // 
             // pictureBox2
             // 

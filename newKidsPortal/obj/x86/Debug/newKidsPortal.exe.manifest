@@ -79,14 +79,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="newKidsPortal.exe" size="1053608">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="newKidsPortal.exe" size="1057704">
       <assemblyIdentity name="newKidsPortal" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>+uFfzoFpUGYI97HcrX/ci4NZ7gNpsACE2QQsTZoT0vw=</dsig:DigestValue>
+        <dsig:DigestValue>tm2xJCwgjgEeWNMfqXvxzT87xt+jb2irHNWmgO/cf6I=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

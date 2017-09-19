@@ -31,6 +31,7 @@ namespace newKidsPortal
         public string[] config;
         string appDataPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
         string path;
+        Bookmark bk;
 
 
         public KidsPortal()
@@ -55,8 +56,15 @@ namespace newKidsPortal
             }
 
             path = Path.Combine(appDataPath + @"\KidsPortal", "config.txt");
-            config = System.IO.File.ReadAllLines(path);
 
+            try { 
+            config = System.IO.File.ReadAllLines(path);
+            }
+            catch (System.Exception e)
+            {
+                path = Path.Combine(appDataPath + @"\KidsPortal", "config.txt");
+                System.IO.File.WriteAllLines(path, config);
+            }
             if (config[0] == "0")
             {
                 this.Hide();
@@ -66,7 +74,7 @@ namespace newKidsPortal
             }
 
             config = System.IO.File.ReadAllLines(path);
-
+            bk = new Bookmark(this, appDataPath);
             sett = new Setting(this, appDataPath);
             n = new Login(this, sett, appDataPath);
         }
@@ -93,8 +101,9 @@ namespace newKidsPortal
             System.IO.File.WriteAllLines(path, nul);
             path = Path.Combine(appDataPath + @"\KidsPortal", "history.txt");
             System.IO.File.WriteAllLines(path, nul);
-            Console.WriteLine(">>>" + path);
             path = Path.Combine(appDataPath + @"\KidsPortal", "report.txt");
+            System.IO.File.WriteAllLines(path, nul);
+            path = Path.Combine(appDataPath + @"\KidsPortal", "bookmark.txt");
             System.IO.File.WriteAllLines(path, nul);
         }
         public void addHistory(string x)
@@ -321,7 +330,10 @@ namespace newKidsPortal
             return previous;
         }
 
-        
-        
+        private void bookButton_Click(object sender, EventArgs e)
+        {
+            bk.Show();
+            bk.setList();
+        }
     }
 }

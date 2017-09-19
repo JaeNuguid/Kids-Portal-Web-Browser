@@ -344,7 +344,7 @@ namespace newKidsPortal
         private void button4_Click(object sender, EventArgs e)
         {
             Ex.Show();
-            Ex.setList();
+            Ex.SetList();
         }
 
         string[] hist;
@@ -352,8 +352,14 @@ namespace newKidsPortal
         public void importHistory()
         {
             path = Path.Combine(appDataPath + @"\KidsPortal", "history.txt");
-            hist = System.IO.File.ReadAllLines(path);
-          
+
+            try{
+                hist = System.IO.File.ReadAllLines(path);
+            }
+            catch (System.Exception e)
+            {
+                System.IO.File.WriteAllLines(path, hist);
+            }
             historyBox.Items.Clear();
             foreach (string x in hist)
             {
@@ -365,8 +371,13 @@ namespace newKidsPortal
         {
 
             path = Path.Combine(appDataPath + @"\KidsPortal", "report.txt");
+            try { 
             repo = System.IO.File.ReadAllLines(path);
-
+            }
+            catch (System.Exception e)
+            {
+                System.IO.File.WriteAllLines(path, repo);
+            }
             reportBox.Items.Clear();
             foreach (string x in repo)
             {

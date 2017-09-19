@@ -160,6 +160,7 @@
             this.bookButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.bookButton.TabIndex = 4;
             this.bookButton.TabStop = false;
+            this.bookButton.Click += new System.EventHandler(this.bookButton_Click);
             this.bookButton.MouseLeave += new System.EventHandler(this.bookOut);
             this.bookButton.MouseHover += new System.EventHandler(this.bookIn);
             // 

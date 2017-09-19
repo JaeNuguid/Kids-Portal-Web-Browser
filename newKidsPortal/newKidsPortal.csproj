@@ -113,6 +113,12 @@
     <Compile Include="blockedWords.Designer.cs">
       <DependentUpon>blockedWords.cs</DependentUpon>
     </Compile>
+    <Compile Include="Bookmark.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bookmark.Designer.cs">
+      <DependentUpon>Bookmark.cs</DependentUpon>
+    </Compile>
     <Compile Include="Exception.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -154,6 +160,9 @@
     <Compile Include="words.cs" />
     <EmbeddedResource Include="blockedWords.resx">
       <DependentUpon>blockedWords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bookmark.resx">
+      <DependentUpon>Bookmark.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Exception.resx">
       <DependentUpon>Exception.cs</DependentUpon>

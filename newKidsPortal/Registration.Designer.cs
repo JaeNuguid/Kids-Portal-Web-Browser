@@ -37,6 +37,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.error = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -135,12 +136,25 @@
             this.error.Text = "Invalid Password";
             this.error.Visible = false;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(88, 36);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(290, 48);
+            this.label4.TabIndex = 13;
+            this.label4.Text = "As a parent, you have the responsibility to watch \r\nout for your children\'s safet" +
+    "y.\r\nLet Kids Portal help you.";
+            // 
             // Registration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(400, 300);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.error);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -175,5 +189,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label error;
+        private System.Windows.Forms.Label label4;
     }
 }

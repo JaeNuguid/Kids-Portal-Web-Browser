@@ -24,14 +24,21 @@ namespace newKidsPortal
             this.appDataPath = appDataPath;
             InitializeComponent();
             path = Path.Combine(appDataPath + @"\KidsPortal", "exception.txt");
-            webs = System.IO.File.ReadAllLines(path);
 
-         
-        }
+            try{
+                webs = System.IO.File.ReadAllLines(path);
+             }
+            catch (System.Exception e)
+            {
+                path = Path.Combine(appDataPath + @"\KidsPortal", "exception.txt");
+                System.IO.File.WriteAllLines(path, webs);
+            }
 
-        public void setList()
+}
+
+        public void SetList()
         {
-            webs = System.IO.File.ReadAllLines(@"C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\newKidsPortal\newKidsPortal\Resources\exception.txt");
+            webs = System.IO.File.ReadAllLines(path);
 
             list.Items.Clear();
             foreach (string x in webs)
@@ -86,7 +93,13 @@ namespace newKidsPortal
 
             webs = e;
 
-            System.IO.File.WriteAllLines(@"C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\newKidsPortal\newKidsPortal\Resources\exception.txt", e);
+            path = Path.Combine(appDataPath + @"\KidsPortal", "exception.txt");
+            System.IO.File.WriteAllLines(path, webs);
+          }
+
+        private void list_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
 
         private void button3_Click(object sender, EventArgs e)
