@@ -742,3 +742,160 @@
 [0919/193739.048:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
 [0919/193800.156:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
 [0919/194421.990:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0922/102149.375:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0922/102205.298:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0922/103650.243:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0922/105643.449:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 5
+[0922/105747.328:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 33
+[0922/105747.596:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 33
+[0922/105806.272:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 15
+[0922/105814.766:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 141
+[0922/105819.850:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 21
+[0922/105819.919:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 251
+[0922/105819.919:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 251
+[0922/105819.982:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 177
+[0922/105820.969:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 179
+[0922/105924.401:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 37
+[0922/105924.401:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 39
+[0922/105924.401:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 41
+[0922/105927.175:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 27
+[0922/105927.327:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 31
+[0922/105927.354:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 33
+[0922/110018.209:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 91
+[0922/110018.406:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 93
+[0922/110044.723:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 41
+[0922/113117.646:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0922/113133.981:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 15
+[0922/113135.663:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 25
+[0922/113546.685:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0922/113631.326:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 19
+[0922/113631.436:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 21
+[0922/113631.807:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 25
+[0922/113637.531:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 45
+[0922/113642.888:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 63
+[0922/113646.710:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 79
+[0922/113647.968:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 87
+[0922/113648.418:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 91
+[0922/114057.228:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0922/114131.390:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0922/114248.908:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0923/195900.139:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0923/202809.709:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0923/202841.999:ERROR:ssl_client_socket_impl.cc(1136)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0923/202842.614:ERROR:ssl_client_socket_impl.cc(1136)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0923/205032.547:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0923/205046.135:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 47
+[0923/205046.136:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 47
+[0923/205218.815:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 417
+[0923/205220.342:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 419
+[0923/205220.342:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 419
+[0923/205220.342:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 421
+[0923/205220.342:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 423
+[0923/205220.342:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 423
+[0923/205220.343:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 425
+[0923/205220.343:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 425
+[0923/205220.343:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 427
+[0923/205220.343:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 427
+[0923/205220.343:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 429
+[0923/205220.343:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 429
+[0923/205220.344:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 431
+[0923/205504.870:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0923/205600.374:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0923/205633.099:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 145
+[0923/205633.099:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 145
+[0923/205634.755:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 147
+[0923/205634.755:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 147
+[0923/205634.756:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 149
+[0923/205634.756:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 149
+[0923/205634.756:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 151
+[0923/205634.756:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 151
+[0923/205634.756:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 153
+[0923/205634.757:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 153
+[0923/205634.757:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 155
+[0923/205634.757:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 155
+[0923/205653.450:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 261
+[0923/205653.453:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 261
+[0923/205656.083:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 263
+[0923/205658.905:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 277
+[0923/205658.905:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 277
+[0923/205659.288:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 279
+[0923/205659.289:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 279
+[0923/205659.289:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 281
+[0923/205659.290:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 283
+[0923/205659.291:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 285
+[0923/205659.291:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 281
+[0923/205659.292:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 283
+[0923/205659.292:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 285
+[0923/205659.292:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 287
+[0923/205659.292:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 289
+[0923/205659.292:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 289
+[0923/205659.292:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 291
+[0923/205659.292:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 287
+[0923/205659.293:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 291
+[0923/205659.293:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 293
+[0923/205659.293:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 293
+[0923/205910.657:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0923/205921.971:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0923/205946.107:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0923/210410.386:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0923/210440.873:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 13
+[0923/210440.873:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 13
+[0923/210445.318:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 15
+[0923/210445.318:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 15
+[0923/210446.325:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 5
+[0923/210541.637:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 47
+[0923/210628.432:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 63
+[0923/210628.432:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 63
+[0923/210633.340:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 67
+[0923/210633.716:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 67
+[0923/210718.288:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 225
+[0923/210718.288:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 225
+[0923/210718.288:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 227
+[0923/210718.288:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 229
+[0923/210718.288:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 227
+[0923/210718.288:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 229
+[0923/210718.288:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 231
+[0923/210718.288:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 233
+[0923/210718.288:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 231
+[0923/210718.288:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 233
+[0923/210830.044:ERROR:gles2_cmd_decoder.cc(15315)] Context lost because SwapBuffers failed.
+[0923/210830.044:ERROR:gles2_cmd_decoder.cc(15684)] Onscreen context lost via ARB/EXT_robustness. Reset status = GL_UNKNOWN_CONTEXT_RESET_KHR
+[0923/210830.044:ERROR:gles2_cmd_decoder.cc(5254)] Error: 5 for Command kPostSubBufferCHROMIUM
+[0923/210830.044:ERROR:gpu_channel_manager.cc(228)] Exiting GPU process because some drivers cannot recover from problems.
+[0923/210830.044:ERROR:gpu_channel_manager.cc(228)] Exiting GPU process because some drivers cannot recover from problems.
+[0923/210830.045:ERROR:gpu_channel_manager.cc(228)] Exiting GPU process because some drivers cannot recover from problems.
+[0923/210830.045:ERROR:gpu_channel_manager.cc(228)] Exiting GPU process because some drivers cannot recover from problems.
+[0923/210830.045:ERROR:gl_context_egl.cc(128)] eglDestroyContext failed with error EGL_CONTEXT_LOST
+[0923/210830.045:ERROR:gl_bindings_autogen_gl.cc(15168)] Trying to call glDeleteBuffersARB() without current GL context
+[0923/210830.045:ERROR:gl_bindings_autogen_gl.cc(15168)] Trying to call glDeleteBuffersARB() without current GL context
+[0923/210830.045:ERROR:gl_bindings_autogen_gl.cc(15250)] Trying to call glDeleteVertexArraysOES() without current GL context
+[0923/210830.045:ERROR:gl_bindings_autogen_gl.cc(15168)] Trying to call glDeleteBuffersARB() without current GL context
+[0923/210830.045:ERROR:gl_bindings_autogen_gl.cc(15168)] Trying to call glDeleteBuffersARB() without current GL context
+[0923/210830.045:ERROR:gl_bindings_autogen_gl.cc(15168)] Trying to call glDeleteBuffersARB() without current GL context
+[0923/210830.045:ERROR:gl_bindings_autogen_gl.cc(15168)] Trying to call glDeleteBuffersARB() without current GL context
+[0923/210830.045:ERROR:gl_bindings_autogen_gl.cc(15189)] Trying to call glDeleteFramebuffersEXT() without current GL context
+[0923/210830.045:ERROR:gl_bindings_autogen_gl.cc(15235)] Trying to call glDeleteTextures() without current GL context
+[0923/210830.045:ERROR:gl_bindings_autogen_gl.cc(15200)] Trying to call glDeleteProgram() without current GL context
+[0923/210830.045:ERROR:gl_bindings_autogen_gl.cc(15200)] Trying to call glDeleteProgram() without current GL context
+[0923/210830.045:ERROR:gl_bindings_autogen_gl.cc(15200)] Trying to call glDeleteProgram() without current GL context
+[0923/210830.045:ERROR:gl_bindings_autogen_gl.cc(15200)] Trying to call glDeleteProgram() without current GL context
+[0923/210830.046:ERROR:gl_bindings_autogen_gl.cc(15200)] Trying to call glDeleteProgram() without current GL context
+[0923/210830.046:ERROR:gl_bindings_autogen_gl.cc(15224)] Trying to call glDeleteShader() without current GL context
+[0923/210830.046:ERROR:gl_bindings_autogen_gl.cc(15224)] Trying to call glDeleteShader() without current GL context
+[0923/210830.046:ERROR:gl_bindings_autogen_gl.cc(15224)] Trying to call glDeleteShader() without current GL context
+[0923/210830.046:ERROR:gl_bindings_autogen_gl.cc(15224)] Trying to call glDeleteShader() without current GL context
+[0923/210830.046:ERROR:gl_bindings_autogen_gl.cc(15224)] Trying to call glDeleteShader() without current GL context
+[0923/210830.046:ERROR:gl_bindings_autogen_gl.cc(15224)] Trying to call glDeleteShader() without current GL context
+[0923/210830.046:ERROR:gl_bindings_autogen_gl.cc(15224)] Trying to call glDeleteShader() without current GL context
+[0923/210830.046:ERROR:gl_bindings_autogen_gl.cc(15224)] Trying to call glDeleteShader() without current GL context
+[0923/210830.046:ERROR:gl_bindings_autogen_gl.cc(15224)] Trying to call glDeleteShader() without current GL context
+[0923/210830.046:ERROR:gl_bindings_autogen_gl.cc(15224)] Trying to call glDeleteShader() without current GL context
+[0923/210830.046:ERROR:gl_context_egl.cc(128)] eglDestroyContext failed with error EGL_CONTEXT_LOST
+[0923/210830.046:ERROR:gl_surface_egl.cc(808)] eglDestroySurface failed with error EGL_CONTEXT_LOST
+[0923/210830.046:ERROR:gl_context_egl.cc(128)] eglDestroyContext failed with error EGL_CONTEXT_LOST
+[0923/210830.047:ERROR:gl_context_egl.cc(128)] eglDestroyContext failed with error EGL_CONTEXT_LOST
+[0923/210830.047:ERROR:gl_surface_egl.cc(1124)] eglDestroySurface failed with error EGL_CONTEXT_LOST
+[0923/211044.492:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0923/211059.535:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 11
+[0923/211101.844:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 19
+[0923/211103.468:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 23

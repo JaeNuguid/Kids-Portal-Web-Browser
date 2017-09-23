@@ -92,7 +92,7 @@ namespace newKidsPortal
                 if (bre) break;
                 foreach (string x in webText)
                 {
-
+                 
                     if (x != null  )                                               
                         if (x.Equals(line, StringComparison.InvariantCultureIgnoreCase))
                         {
@@ -406,9 +406,16 @@ namespace newKidsPortal
 
             if ((x.Length>3)&&(x.Contains(".com") || x.Contains(".info") || x.Contains(".edu") || x.Contains(".io") || x.Contains(".net") || x.Contains(".org")))
             {
-                System.Uri uri = new Uri(x);
-                string fixedUri = uri.AbsoluteUri.Replace(uri.Query, string.Empty);
-                reportBox.Items.Add(DateTime.Now.ToString("d/MM/yyyy") + "\t" + DateTime.Now.ToString("hh:mm:ss tt") + "\t " + fixedUri+"\t"+bad);
+                try
+                {
+                    System.Uri uri = new Uri(x);
+                    string fixedUri = uri.AbsoluteUri.Replace(uri.Query, string.Empty);
+                    reportBox.Items.Add(DateTime.Now.ToString("d/MM/yyyy") + "\t" + DateTime.Now.ToString("hh:mm:ss tt") + "\t "+ bad + "\t" + fixedUri);
+                }catch(System.Exception de)
+                {
+                    reportBox.Items.Add(DateTime.Now.ToString("d/MM/yyyy") + "\t" + DateTime.Now.ToString("hh:mm:ss tt") + "\t " + bad + "\t" + kp.navBar.Text );
+
+                }
                 updateReport();
             }
 

@@ -33,27 +33,27 @@
             this.Background = new System.Windows.Forms.Panel();
             this.panel = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.closeButton = new System.Windows.Forms.PictureBox();
-            this.resizeButton = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.bookButton = new System.Windows.Forms.PictureBox();
             this.homeButton = new System.Windows.Forms.PictureBox();
             this.forwardButton = new System.Windows.Forms.PictureBox();
             this.backwardButton = new System.Windows.Forms.PictureBox();
             this.navBar = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.closeButton = new System.Windows.Forms.PictureBox();
+            this.resizeButton = new System.Windows.Forms.PictureBox();
+            this.play = new System.Windows.Forms.PictureBox();
+            this.bookButton = new System.Windows.Forms.PictureBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.Background.SuspendLayout();
             this.panel.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.closeButton)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.resizeButton)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bookButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.homeButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.forwardButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.backwardButton)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.closeButton)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.resizeButton)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.play)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bookButton)).BeginInit();
             this.SuspendLayout();
             // 
             // Background
@@ -86,7 +86,7 @@
             // 
             // tableLayoutPanel2
             // 
-            this.tableLayoutPanel2.ColumnCount = 8;
+            this.tableLayoutPanel2.ColumnCount = 9;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 35F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 35F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 35F));
@@ -95,15 +95,16 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 35F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 35F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 35F));
-            this.tableLayoutPanel2.Controls.Add(this.closeButton, 7, 0);
-            this.tableLayoutPanel2.Controls.Add(this.resizeButton, 6, 0);
-            this.tableLayoutPanel2.Controls.Add(this.pictureBox6, 5, 0);
-            this.tableLayoutPanel2.Controls.Add(this.bookButton, 4, 0);
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 35F));
             this.tableLayoutPanel2.Controls.Add(this.homeButton, 2, 0);
             this.tableLayoutPanel2.Controls.Add(this.forwardButton, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.backwardButton, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.navBar, 3, 0);
             this.tableLayoutPanel2.Controls.Add(this.panel1, 3, 1);
+            this.tableLayoutPanel2.Controls.Add(this.closeButton, 8, 0);
+            this.tableLayoutPanel2.Controls.Add(this.resizeButton, 7, 0);
+            this.tableLayoutPanel2.Controls.Add(this.play, 4, 0);
+            this.tableLayoutPanel2.Controls.Add(this.bookButton, 5, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -112,57 +113,6 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 8F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(687, 44);
             this.tableLayoutPanel2.TabIndex = 1;
-            // 
-            // closeButton
-            // 
-            this.closeButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.closeButton.Image = global::newKidsPortal.Properties.Resources.close0;
-            this.closeButton.Location = new System.Drawing.Point(655, 3);
-            this.closeButton.Name = "closeButton";
-            this.closeButton.Size = new System.Drawing.Size(29, 30);
-            this.closeButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.closeButton.TabIndex = 7;
-            this.closeButton.TabStop = false;
-            this.closeButton.Click += new System.EventHandler(this.closeClick);
-            this.closeButton.MouseLeave += new System.EventHandler(this.closeOut);
-            this.closeButton.MouseHover += new System.EventHandler(this.closeIn);
-            // 
-            // resizeButton
-            // 
-            this.resizeButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.resizeButton.Image = global::newKidsPortal.Properties.Resources.resize0;
-            this.resizeButton.Location = new System.Drawing.Point(620, 3);
-            this.resizeButton.Name = "resizeButton";
-            this.resizeButton.Size = new System.Drawing.Size(29, 30);
-            this.resizeButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.resizeButton.TabIndex = 6;
-            this.resizeButton.TabStop = false;
-            this.resizeButton.Click += new System.EventHandler(this.resizeClick);
-            this.resizeButton.MouseLeave += new System.EventHandler(this.resizeOut);
-            this.resizeButton.MouseHover += new System.EventHandler(this.resizeIn);
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox6.Location = new System.Drawing.Point(585, 3);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(29, 30);
-            this.pictureBox6.TabIndex = 5;
-            this.pictureBox6.TabStop = false;
-            // 
-            // bookButton
-            // 
-            this.bookButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bookButton.Image = global::newKidsPortal.Properties.Resources.book0;
-            this.bookButton.Location = new System.Drawing.Point(550, 3);
-            this.bookButton.Name = "bookButton";
-            this.bookButton.Size = new System.Drawing.Size(29, 30);
-            this.bookButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.bookButton.TabIndex = 4;
-            this.bookButton.TabStop = false;
-            this.bookButton.Click += new System.EventHandler(this.bookButton_Click);
-            this.bookButton.MouseLeave += new System.EventHandler(this.bookOut);
-            this.bookButton.MouseHover += new System.EventHandler(this.bookIn);
             // 
             // homeButton
             // 
@@ -217,7 +167,7 @@
             this.navBar.Location = new System.Drawing.Point(105, 8);
             this.navBar.Margin = new System.Windows.Forms.Padding(0, 8, 0, 0);
             this.navBar.Name = "navBar";
-            this.navBar.Size = new System.Drawing.Size(442, 25);
+            this.navBar.Size = new System.Drawing.Size(407, 25);
             this.navBar.TabIndex = 8;
             this.navBar.Text = "Search here...";
             this.navBar.MouseClick += new System.Windows.Forms.MouseEventHandler(this.navBar_MouseClick);
@@ -231,8 +181,64 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(108, 39);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(436, 2);
+            this.panel1.Size = new System.Drawing.Size(401, 2);
             this.panel1.TabIndex = 9;
+            // 
+            // closeButton
+            // 
+            this.closeButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.closeButton.Image = global::newKidsPortal.Properties.Resources.close0;
+            this.closeButton.Location = new System.Drawing.Point(655, 3);
+            this.closeButton.Name = "closeButton";
+            this.closeButton.Size = new System.Drawing.Size(29, 30);
+            this.closeButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.closeButton.TabIndex = 7;
+            this.closeButton.TabStop = false;
+            this.closeButton.Click += new System.EventHandler(this.closeClick);
+            this.closeButton.MouseLeave += new System.EventHandler(this.closeOut);
+            this.closeButton.MouseHover += new System.EventHandler(this.closeIn);
+            // 
+            // resizeButton
+            // 
+            this.resizeButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.resizeButton.Image = global::newKidsPortal.Properties.Resources.resize0;
+            this.resizeButton.Location = new System.Drawing.Point(620, 3);
+            this.resizeButton.Name = "resizeButton";
+            this.resizeButton.Size = new System.Drawing.Size(29, 30);
+            this.resizeButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.resizeButton.TabIndex = 6;
+            this.resizeButton.TabStop = false;
+            this.resizeButton.Click += new System.EventHandler(this.resizeClick);
+            this.resizeButton.MouseLeave += new System.EventHandler(this.resizeOut);
+            this.resizeButton.MouseHover += new System.EventHandler(this.resizeIn);
+            // 
+            // play
+            // 
+            this.play.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.play.Image = global::newKidsPortal.Properties.Resources.go0;
+            this.play.Location = new System.Drawing.Point(515, 3);
+            this.play.Name = "play";
+            this.play.Size = new System.Drawing.Size(29, 30);
+            this.play.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.play.TabIndex = 5;
+            this.play.TabStop = false;
+            this.play.MouseClick += new System.Windows.Forms.MouseEventHandler(this.playClick);
+            this.play.MouseLeave += new System.EventHandler(this.playOut);
+            this.play.MouseHover += new System.EventHandler(this.playIn);
+            // 
+            // bookButton
+            // 
+            this.bookButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bookButton.Image = global::newKidsPortal.Properties.Resources.book0;
+            this.bookButton.Location = new System.Drawing.Point(550, 3);
+            this.bookButton.Name = "bookButton";
+            this.bookButton.Size = new System.Drawing.Size(29, 30);
+            this.bookButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.bookButton.TabIndex = 4;
+            this.bookButton.TabStop = false;
+            this.bookButton.Click += new System.EventHandler(this.bookButton_Click);
+            this.bookButton.MouseLeave += new System.EventHandler(this.bookOut);
+            this.bookButton.MouseHover += new System.EventHandler(this.bookIn);
             // 
             // timer1
             // 
@@ -259,13 +265,13 @@
             this.panel.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.closeButton)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.resizeButton)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bookButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.homeButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.forwardButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.backwardButton)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.closeButton)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.resizeButton)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.play)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bookButton)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -277,7 +283,7 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.PictureBox closeButton;
         private System.Windows.Forms.PictureBox resizeButton;
-        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox play;
         private System.Windows.Forms.PictureBox bookButton;
         private System.Windows.Forms.PictureBox homeButton;
         private System.Windows.Forms.PictureBox forwardButton;

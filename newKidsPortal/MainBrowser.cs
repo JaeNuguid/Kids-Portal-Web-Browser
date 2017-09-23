@@ -260,6 +260,7 @@ namespace newKidsPortal
                 }
             }
         }
+        
 
 
         private Boolean passURL(String text)
@@ -334,6 +335,40 @@ namespace newKidsPortal
         {
             bk.Show();
             bk.setList();
+        }
+
+        private void playIn(object sender, EventArgs e)
+        {
+            play.Image = ((System.Drawing.Image)(Properties.Resources.go1));
+
+        }
+
+        private void playOut(object sender, EventArgs e)
+        {
+
+            play.Image = ((System.Drawing.Image)(Properties.Resources.go0));
+        }
+
+        private void playClick(object sender, MouseEventArgs e)
+        {
+            
+                if (navBar.Text.Contains("//setting"))
+                {
+                    n.Show();
+                }
+                else
+                {
+                    if (passURL(navBar.Text))
+                    {
+                        bro.Load(navBar.Text);
+                        addHistory(navBar.Text);
+                        timer1.Start();
+                    }
+                    tempoNavBar = navBar.Text;
+                    string text = navBar.Text;
+
+                }
+            
         }
     }
 }
