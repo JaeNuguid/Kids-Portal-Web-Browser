@@ -230,7 +230,7 @@ namespace newKidsPortal
 
         private void navBar_MouseLeave(object sender, EventArgs e)
         {
-            navBar.Text = tempoNavBar;
+        //    navBar.Text = tempoNavBar;
         }
 
        
@@ -305,6 +305,7 @@ namespace newKidsPortal
 
         public void goHomepage()
         {
+            bro.Load("about:blank");
             bro.Load(homepage[set]);
         }
 
