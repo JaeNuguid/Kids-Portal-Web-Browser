@@ -44,6 +44,7 @@
             this.bookButton = new System.Windows.Forms.PictureBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.notif = new System.Windows.Forms.NotifyIcon(this.components);
             this.Background.SuspendLayout();
             this.panel.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -113,6 +114,7 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 8F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(687, 44);
             this.tableLayoutPanel2.TabIndex = 1;
+            this.tableLayoutPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel2_Paint);
             // 
             // homeButton
             // 
@@ -244,6 +246,14 @@
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick_1);
             // 
+            // notif
+            // 
+            this.notif.Icon = ((System.Drawing.Icon)(resources.GetObject("notif.Icon")));
+            this.notif.Text = "Kids Portal";
+            this.notif.Visible = true;
+            this.notif.Click += new System.EventHandler(this.show2);
+            this.notif.DoubleClick += new System.EventHandler(this.show);
+            // 
             // KidsPortal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -292,6 +302,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.NotifyIcon notif;
     }
 }
 

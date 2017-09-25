@@ -18,9 +18,11 @@ namespace newKidsPortal
     public partial class Setting : Form
     {
         public bool protection =true;
+
+        public bool protection2 = true;
         blockedWords bW = new blockedWords();
         ColorDialog colorDialog1 = new ColorDialog();
-        String[] urls = { "iexplore", "chrome", "firefox", "opera" };
+        String[] urls = { "iexplore", "chrome", "firefox", "opera","taskmgr" };
         string[] tagalog;
         string[] english;
         string[] xWords;
@@ -32,7 +34,9 @@ namespace newKidsPortal
         Detection det;
         CheckBox[] boxes = new CheckBox[5];
         KidsPortal kp;
-          
+        TimeLimit tl;
+        Alert2 a2;
+      
         string[] webText = new String[2];
      
 
@@ -43,19 +47,17 @@ namespace newKidsPortal
         }
         public Setting(KidsPortal kp, string store)
         {
+            a2 = new Alert2(kp);
             appDataPath = store;
             Ex = new Exception(store);
             this.kp = kp;
             det = new Detection(this);
+            tl = new TimeLimit(store, this);
+            tl.setButtons();
             bW.Hide();
             InitializeComponent();
             importHistory();
             importReport();
-            boxes[0] = b0;
-            boxes[1] = b1;
-            boxes[2] = b2;
-            boxes[3] = b3;
-            boxes[4] = b4;
             timer1.Start();
 
             path = Path.Combine(appDataPath + @"\KidsPortal", "english.txt");
@@ -75,8 +77,9 @@ namespace newKidsPortal
             if (kp != null)
             {
                 text = kp.getText();
-                webText = text.Split(new char[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries);
+               
 
+                webText = text.Split(new char[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries);
                 xWords = english.Concat(tagalog).ToArray();
             }
         }
@@ -266,43 +269,69 @@ namespace newKidsPortal
 
             }
         }
+        
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if(protection)
-            {               
-                protectionLabel.Text = "Real-Time Protection is currently turend on.";
-                protectionLabel.ForeColor = Color.Green;
-                protectionButton.Text = "TURN OFF";
-                checkOtherBrowser(boxes);
-
-                getArray();
-                if (!running)
-                {
-
-                    // where checking starts
-                    if (kp != null)
-                    {
-                        if (Ex.isIgnore(kp.urlX) && kp.navBar.Text.Length > 3)
-                            checkEnglish();
-                    }
+            if (tl.checkTime())
+            {
+                if (kp.Visible) {
+                    a2.Show();
+                    kp.Hide(); 
+    
                 }
             }
+            else
+            {
+                if (!kp.Visible)
+                    kp.Show();
+            }
+         
+               
+                if (protection)
+                {
+                    protectionLabel.Text = "Real-Time Protection is currently turend on.";
+                    protectionLabel.ForeColor = Color.Green;
+                    protectionButton.Text = "TURN OFF";
 
+
+                    getArray();
+                    if (!running)
+                    {
+
+                        // where checking starts
+                        if (kp != null)
+                        {
+                            if (Ex.isIgnore(kp.urlX) && kp.navBar.Text.Length > 3)
+                                checkEnglish();
+                        }
+                    }
+                }
+
+                if (protection2)
+                {
+                    checkOtherBrowser();
+                    protectionLabel2.Text = "Web Control is currently turend on.";
+                    protectionLabel2.ForeColor = Color.Green;
+                    protectionButton2.Text = "TURN OFF";
+
+
+                }
+            
         }
 
-        public void checkOtherBrowser(CheckBox[] boxes)
+        public void checkOtherBrowser()
         {
-            for (int x = 0; x < boxes.Length; x++)
-            {
-                if (boxes[x].Checked)
-                {
 
-                    Process[] runningProcess = Process.GetProcesses();
+            if (protection2)
+            {
+                Process[] runningProcess = Process.GetProcesses();
+                foreach (String xx in urls)
                     for (int i = 0; i < runningProcess.Length; i++)
                     {
+                        //Console.WriteLine(">> " + runningProcess[i].ProcessName);
                         // compare equivalent process by their name
-                        if (runningProcess[i].ProcessName == urls[x])
+                        if (runningProcess[i].ProcessName.Contains(xx))
                         {
                             // kill  running process
                             try
@@ -316,23 +345,12 @@ namespace newKidsPortal
 
                         }
                     }
-                }
 
             }
 
-
         }
 
-        private void extra_TextChanged(object sender, EventArgs e)
-        {
-            if(extra.Text.Contains(" ")||extra.Text == null)
-            {
-                MessageBox.Show("Process should not contain any spaces or should not be blank.", "Kids Portal - Settings Panel");
-
-            }
-            else
-            urls[4] = extra.Text;
-        }
+    
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -530,6 +548,34 @@ namespace newKidsPortal
                 box2.Text = "";
             }
           
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+
+            if (protection2)
+            {
+                protection2 = false;
+                protectionLabel2.Text = "Web Control is currently turend off.";
+                protectionLabel2.ForeColor = Color.Red;
+                protectionButton2.Text = "TURN ON";
+              
+            }
+            else
+            {
+                protection2 = true;
+
+
+
+            }
+        }
+
+        private void button10_Click_1(object sender, EventArgs e)
+        {
+            tl.setButtons();
+            tl.Show();
+            
+
         }
     }
 }

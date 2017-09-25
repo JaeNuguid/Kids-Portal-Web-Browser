@@ -28,3 +28,5 @@ C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\newKidsPortal\newK
 C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\newKidsPortal\newKidsPortal\obj\x86\Debug\newKidsPortal.pdb
 C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\bin\x86\Debug\newKidsPortal.pdb
 C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\newKidsPortal\newKidsPortal\obj\x86\Debug\newKidsPortal.Bookmark.resources
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\obj\x86\Debug\newKidsPortal.TimeLimit.resources
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\obj\x86\Debug\newKidsPortal.Alert2.resources

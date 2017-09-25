@@ -124,13 +124,6 @@ page has successfuly loaded.
 It also enables the use of Web Browser Control, which can be found in the Security tab.
 </value>
   </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>Web Browser Control is an extra layer of protection to prevent your children from using diffrent 
-web browsers other than Kids Portal.
-
-Real-Time Protection must be enabled to use this function, it can be found in the Protection tab.
-</value>
-  </data>
   <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>

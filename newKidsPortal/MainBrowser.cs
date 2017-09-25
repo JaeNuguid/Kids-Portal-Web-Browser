@@ -82,7 +82,7 @@ namespace newKidsPortal
         private void OnBrowserAddressChanged(object sender, AddressChangedEventArgs args)
         {
             this.InvokeOnUiThreadIfRequired(() => navBar.Text = args.Address
-            );
+            );  
             urlX = navBar.Text;
         }
 
@@ -105,6 +105,14 @@ namespace newKidsPortal
             System.IO.File.WriteAllLines(path, nul);
             path = Path.Combine(appDataPath + @"\KidsPortal", "bookmark.txt");
             System.IO.File.WriteAllLines(path, nul);
+
+            String[] nu = new String[84];
+            for(int x=0; x< 84; x++)
+            {
+                nu[x] = "1";
+            }
+            path = Path.Combine(appDataPath + @"\KidsPortal", "times.txt");
+            System.IO.File.WriteAllLines(path, nu);
         }
         public void addHistory(string x)
         {
@@ -219,7 +227,8 @@ namespace newKidsPortal
 
         private void closeClick(object sender, EventArgs e)
         {
-            Application.Exit();
+            // Application.Exit();
+            Hide();
         }
         
         private void navBar_MouseClick(object sender, MouseEventArgs e)
@@ -243,7 +252,8 @@ namespace newKidsPortal
             if (e.KeyCode == Keys.Enter)
             {
                 if (navBar.Text.Contains("//setting"))
-                {                    
+                {
+                    navBar.Text = tempoNavBar;
                     n.Show();
                 }
                 else
@@ -320,7 +330,8 @@ namespace newKidsPortal
         private void timer1_Tick_1(object sender, EventArgs e)
         {
 
-            if(bro.GetTextAsync().Result!= previous)
+
+            if((bro.GetTextAsync().Result!= previous))
             {
                 previous = bro.GetTextAsync().Result;
              }
@@ -370,6 +381,21 @@ namespace newKidsPortal
 
                 }
             
+        }
+
+        private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void show(object sender, EventArgs e)
+        {
+            Show();
+        }
+
+        private void show2(object sender, EventArgs e)
+        {
+            Show();
         }
     }
 }
