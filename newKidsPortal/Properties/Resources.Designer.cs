@@ -271,6 +271,30 @@ namespace newKidsPortal.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///
+        ///&lt;html lang=&quot;en&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+        ///&lt;head&gt;
+        ///    &lt;title&gt; Kids Portal - Child-friendly Web Browser&lt;/title&gt;
+        ///    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+        ///    &lt;style&gt;
+        ///        body {
+        ///            background-image: url(&quot;http://imagizer.imageshack.us/a/img924/3871/AstkMr.png&quot;);
+        ///            background-size: 100%;
+        ///            -moz-background-size: cover;
+        ///            -o-background-size: cover;
+        ///            background-size: cover;
+        ///        }
+        ///
+        ///  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string kpweb {
+            get {
+                return ResourceManager.GetString("kpweb", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap parents {

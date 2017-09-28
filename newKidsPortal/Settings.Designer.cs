@@ -35,15 +35,22 @@ namespace newKidsPortal
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.custom = new System.Windows.Forms.TextBox();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.button2 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.box = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -53,6 +60,9 @@ namespace newKidsPortal
             this.label3 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.button10 = new System.Windows.Forms.Button();
+            this.protectionLabel2 = new System.Windows.Forms.Label();
+            this.protectionButton2 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
@@ -72,31 +82,12 @@ namespace newKidsPortal
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.protectionLabel2 = new System.Windows.Forms.Label();
-            this.protectionButton2 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.box = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button10 = new System.Windows.Forms.Button();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.tabPage3.SuspendLayout();
-            this.groupBox4.SuspendLayout();
-            this.tabPage4.SuspendLayout();
-            this.tabPage5.SuspendLayout();
-            this.tabPage6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.box)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -106,6 +97,14 @@ namespace newKidsPortal
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.tabPage2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.tabPage3.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.tabPage4.SuspendLayout();
+            this.tabPage5.SuspendLayout();
+            this.tabPage6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -150,9 +149,8 @@ namespace newKidsPortal
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.custom);
-            this.groupBox2.Controls.Add(this.radioButton2);
             this.groupBox2.Controls.Add(this.radioButton4);
+            this.groupBox2.Controls.Add(this.radioButton2);
             this.groupBox2.Controls.Add(this.radioButton1);
             this.groupBox2.Controls.Add(this.radioButton3);
             this.groupBox2.Location = new System.Drawing.Point(16, 193);
@@ -160,17 +158,7 @@ namespace newKidsPortal
             this.groupBox2.Size = new System.Drawing.Size(566, 100);
             this.groupBox2.TabIndex = 21;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Homepage";
-            // 
-            // custom
-            // 
-            this.custom.Enabled = false;
-            this.custom.Location = new System.Drawing.Point(267, 57);
-            this.custom.Name = "custom";
-            this.custom.Size = new System.Drawing.Size(293, 26);
-            this.custom.TabIndex = 5;
-            this.custom.Text = "http://";
-            this.custom.TextChanged += new System.EventHandler(this.custom_TextChanged);
+            this.groupBox2.Text = "Navigation Bar Quick Search";
             // 
             // radioButton2
             // 
@@ -182,17 +170,6 @@ namespace newKidsPortal
             this.radioButton2.Text = "Kiddle";
             this.radioButton2.UseVisualStyleBackColor = true;
             this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged_1);
-            // 
-            // radioButton4
-            // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(174, 60);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(80, 26);
-            this.radioButton4.TabIndex = 4;
-            this.radioButton4.Text = "Custom";
-            this.radioButton4.UseVisualStyleBackColor = true;
-            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged_1);
             // 
             // radioButton1
             // 
@@ -257,6 +234,94 @@ namespace newKidsPortal
             this.label2.TabIndex = 16;
             this.label2.Text = "Use \r\nyour\r\nown";
             this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // box
+            // 
+            this.box.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.box.Location = new System.Drawing.Point(16, 137);
+            this.box.Name = "box";
+            this.box.Size = new System.Drawing.Size(399, 50);
+            this.box.TabIndex = 15;
+            this.box.TabStop = false;
+            this.box.Click += new System.EventHandler(this.box_Click);
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Location = new System.Drawing.Point(507, 48);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox7.TabIndex = 7;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::newKidsPortal.Properties.Resources._6;
+            this.pictureBox8.Location = new System.Drawing.Point(438, 48);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox8.TabIndex = 6;
+            this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = global::newKidsPortal.Properties.Resources._5;
+            this.pictureBox9.Location = new System.Drawing.Point(367, 48);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox9.TabIndex = 5;
+            this.pictureBox9.TabStop = false;
+            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = global::newKidsPortal.Properties.Resources._4;
+            this.pictureBox10.Location = new System.Drawing.Point(298, 48);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox10.TabIndex = 4;
+            this.pictureBox10.TabStop = false;
+            this.pictureBox10.Click += new System.EventHandler(this.pictureBox10_Click);
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::newKidsPortal.Properties.Resources._3;
+            this.pictureBox5.Location = new System.Drawing.Point(225, 48);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox5.TabIndex = 3;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::newKidsPortal.Properties.Resources._21;
+            this.pictureBox6.Location = new System.Drawing.Point(156, 48);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox6.TabIndex = 2;
+            this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::newKidsPortal.Properties.Resources._2;
+            this.pictureBox4.Location = new System.Drawing.Point(85, 48);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox4.TabIndex = 1;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::newKidsPortal.Properties.Resources._1;
+            this.pictureBox3.Location = new System.Drawing.Point(16, 48);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // tabPage2
             // 
@@ -367,6 +432,43 @@ namespace newKidsPortal
             this.groupBox4.TabIndex = 8;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Web Browser Control";
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.Font = new System.Drawing.Font("Trebuchet MS", 25F);
+            this.button10.Location = new System.Drawing.Point(6, 209);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(554, 54);
+            this.button10.TabIndex = 11;
+            this.button10.Text = "Manage Time Limit";
+            this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click_1);
+            // 
+            // protectionLabel2
+            // 
+            this.protectionLabel2.AutoSize = true;
+            this.protectionLabel2.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.protectionLabel2.ForeColor = System.Drawing.Color.Red;
+            this.protectionLabel2.Location = new System.Drawing.Point(7, 124);
+            this.protectionLabel2.Name = "protectionLabel2";
+            this.protectionLabel2.Size = new System.Drawing.Size(203, 17);
+            this.protectionLabel2.TabIndex = 10;
+            this.protectionLabel2.Text = "Web Control is currently turned off.";
+            // 
+            // protectionButton2
+            // 
+            this.protectionButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.protectionButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.protectionButton2.Font = new System.Drawing.Font("Trebuchet MS", 25F);
+            this.protectionButton2.Location = new System.Drawing.Point(10, 69);
+            this.protectionButton2.Name = "protectionButton2";
+            this.protectionButton2.Size = new System.Drawing.Size(293, 52);
+            this.protectionButton2.TabIndex = 9;
+            this.protectionButton2.Text = "TURN ON";
+            this.protectionButton2.UseVisualStyleBackColor = false;
+            this.protectionButton2.Click += new System.EventHandler(this.button10_Click);
             // 
             // label6
             // 
@@ -575,30 +677,6 @@ namespace newKidsPortal
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // protectionLabel2
-            // 
-            this.protectionLabel2.AutoSize = true;
-            this.protectionLabel2.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.protectionLabel2.ForeColor = System.Drawing.Color.Red;
-            this.protectionLabel2.Location = new System.Drawing.Point(7, 124);
-            this.protectionLabel2.Name = "protectionLabel2";
-            this.protectionLabel2.Size = new System.Drawing.Size(203, 17);
-            this.protectionLabel2.TabIndex = 10;
-            this.protectionLabel2.Text = "Web Control is currently turned off.";
-            // 
-            // protectionButton2
-            // 
-            this.protectionButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.protectionButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.protectionButton2.Font = new System.Drawing.Font("Trebuchet MS", 25F);
-            this.protectionButton2.Location = new System.Drawing.Point(10, 69);
-            this.protectionButton2.Name = "protectionButton2";
-            this.protectionButton2.Size = new System.Drawing.Size(293, 52);
-            this.protectionButton2.TabIndex = 9;
-            this.protectionButton2.Text = "TURN ON";
-            this.protectionButton2.UseVisualStyleBackColor = false;
-            this.protectionButton2.Click += new System.EventHandler(this.button10_Click);
-            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::newKidsPortal.Properties.Resources.KidsPortal;
@@ -608,94 +686,6 @@ namespace newKidsPortal
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
-            // 
-            // box
-            // 
-            this.box.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.box.Location = new System.Drawing.Point(16, 137);
-            this.box.Name = "box";
-            this.box.Size = new System.Drawing.Size(399, 50);
-            this.box.TabIndex = 15;
-            this.box.TabStop = false;
-            this.box.Click += new System.EventHandler(this.box_Click);
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Location = new System.Drawing.Point(507, 48);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox7.TabIndex = 7;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = global::newKidsPortal.Properties.Resources._6;
-            this.pictureBox8.Location = new System.Drawing.Point(438, 48);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox8.TabIndex = 6;
-            this.pictureBox8.TabStop = false;
-            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = global::newKidsPortal.Properties.Resources._5;
-            this.pictureBox9.Location = new System.Drawing.Point(367, 48);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox9.TabIndex = 5;
-            this.pictureBox9.TabStop = false;
-            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Image = global::newKidsPortal.Properties.Resources._4;
-            this.pictureBox10.Location = new System.Drawing.Point(298, 48);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox10.TabIndex = 4;
-            this.pictureBox10.TabStop = false;
-            this.pictureBox10.Click += new System.EventHandler(this.pictureBox10_Click);
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::newKidsPortal.Properties.Resources._3;
-            this.pictureBox5.Location = new System.Drawing.Point(225, 48);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox5.TabIndex = 3;
-            this.pictureBox5.TabStop = false;
-            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::newKidsPortal.Properties.Resources._21;
-            this.pictureBox6.Location = new System.Drawing.Point(156, 48);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox6.TabIndex = 2;
-            this.pictureBox6.TabStop = false;
-            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::newKidsPortal.Properties.Resources._2;
-            this.pictureBox4.Location = new System.Drawing.Point(85, 48);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox4.TabIndex = 1;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::newKidsPortal.Properties.Resources._1;
-            this.pictureBox3.Location = new System.Drawing.Point(16, 48);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox1
             // 
@@ -707,18 +697,16 @@ namespace newKidsPortal
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // button10
+            // radioButton4
             // 
-            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Font = new System.Drawing.Font("Trebuchet MS", 25F);
-            this.button10.Location = new System.Drawing.Point(6, 209);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(554, 54);
-            this.button10.TabIndex = 11;
-            this.button10.Text = "Manage Time Limit";
-            this.button10.UseVisualStyleBackColor = false;
-            this.button10.Click += new System.EventHandler(this.button10_Click_1);
+            this.radioButton4.AutoSize = true;
+            this.radioButton4.Location = new System.Drawing.Point(174, 60);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(86, 26);
+            this.radioButton4.TabIndex = 4;
+            this.radioButton4.Text = "Youtube";
+            this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
             // Setting
             // 
@@ -742,6 +730,15 @@ namespace newKidsPortal
             this.tabPage1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.box)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
@@ -753,15 +750,6 @@ namespace newKidsPortal
             this.tabPage6.ResumeLayout(false);
             this.tabPage6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.box)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -791,9 +779,7 @@ namespace newKidsPortal
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox custom;
         private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton4;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.GroupBox groupBox3;
@@ -824,5 +810,6 @@ namespace newKidsPortal
         private Label protectionLabel2;
         private Button protectionButton2;
         private Button button10;
+        private RadioButton radioButton4;
     }
 }

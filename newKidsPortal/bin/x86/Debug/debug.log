@@ -1076,3 +1076,50 @@
 [0925/200139.509:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
 [0925/200306.198:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
 [0925/200422.235:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0928/221417.665:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0928/221449.924:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 11
+[0928/221450.516:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 13
+[0928/222111.770:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0928/222131.156:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 11
+[0928/222131.441:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 13
+[0928/222221.978:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0928/222245.170:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 11
+[0928/222247.904:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 13
+[0928/222251.771:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 17
+[0928/224039.411:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0928/224201.579:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 3
+[0928/224217.741:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 15
+[0928/224221.368:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 17
+[0928/224224.279:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 3
+[0928/224225.079:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 5
+[0928/224232.747:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0928/224240.883:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0928/224312.313:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 15
+[0928/224329.522:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 19
+[0928/224413.170:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0928/224439.530:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 11
+[0928/224804.142:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0928/230130.833:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0928/230154.492:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0928/230154.493:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0928/230215.088:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 51
+[0928/230229.673:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0928/230410.985:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0928/230435.156:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0928/230758.284:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0928/230835.260:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0928/230854.906:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0928/230933.228:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0928/231048.283:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0928/231048.283:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[0928/231120.283:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0928/231156.958:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0928/231312.795:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0928/231528.523:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0928/231706.329:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0928/231815.945:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0928/232117.387:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0928/232349.936:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0928/232824.349:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0928/233121.529:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0928/233516.860:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain

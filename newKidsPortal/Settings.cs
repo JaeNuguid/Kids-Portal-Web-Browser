@@ -215,38 +215,32 @@ namespace newKidsPortal
 
         private void radioButton1_CheckedChanged_1(object sender, EventArgs e)
         {
-            custom.Enabled = false;
             kp.set = 0;
             kp.goHomepage();
         }
 
         private void radioButton3_CheckedChanged_1(object sender, EventArgs e)
         {
-            custom.Enabled = false;
             kp.set = 2;
             kp.goHomepage();
         }
 
         private void radioButton4_CheckedChanged_1(object sender, EventArgs e)
         {
-            custom.Enabled = true;
-            kp.homepage[3] = custom.Text;
+        
             kp.set = 3;
             kp.goHomepage();
         }
 
         private void radioButton2_CheckedChanged_1(object sender, EventArgs e)
         {
-            custom.Enabled = false;
-            kp.set = 1;
+           kp.set = 1;
             kp.goHomepage();
         }
 
         private void custom_TextChanged(object sender, EventArgs e)
         {
-            custom.Enabled = true;
-            kp.homepage[3] = custom.Text;
-            kp.set = 3;
+             kp.set = 3;
             kp.goHomepage();
         }
 
@@ -576,6 +570,12 @@ namespace newKidsPortal
             tl.Show();
             
 
+        }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+            kp.set = 3;
+            kp.goHomepage();
         }
     }
 }

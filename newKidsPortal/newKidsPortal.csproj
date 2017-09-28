@@ -307,6 +307,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="KidsPortal.ico" />
+    <None Include="Resources\kpweb.txt" />
     <None Include="Resources\go1.png" />
     <None Include="Resources\go0.png" />
   </ItemGroup>

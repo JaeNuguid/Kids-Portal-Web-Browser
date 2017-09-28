@@ -12,6 +12,7 @@ using CefSharp.WinForms;
 using CefSharp.WinForms.Internals;
 using newKidsPortal.Resources;
 using System.IO;
+using System.Reflection;
 
 namespace newKidsPortal
 {
@@ -21,12 +22,11 @@ namespace newKidsPortal
         public string previous = "testing";
         private String tempoNavBar = "";
         public ChromiumWebBrowser bro;
-
+        string datass = Properties.Resources.kpweb;
         ToolTip toolTip = new ToolTip();
         public Setting sett;
         public Login n;
-        public string[] homepage = { "https://www.google.com", "http://www.kiddle.co/", "http://www.kidrex.org/", "" };
-        string[] searches = { "https://www.google.com/search?q=", "http://www.kiddle.co/s.php?q=", "http://www.kidrex.org/results/?q=", "https://www.google.com/search?q=" };
+        string[] searches = { "https://www.google.com/search?q=", "http://www.kiddle.co/s.php?q=", "http://www.kidrex.org/results/?q=", "https://www.youtube.com/results?search_query=" };
         public int set = 2;
         public string[] config;
         string appDataPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
@@ -127,8 +127,8 @@ namespace newKidsPortal
             // Initialize cef with the provided settings
             Cef.Initialize(settings);
             // Create a browser component
-           bro = new ChromiumWebBrowser(homepage[set]);
-           
+           bro = new ChromiumWebBrowser("https://github.com/JaeNuguid");
+            goHomepage();
             // Add it to the form and fill it to the form window.
             panel.Controls.Add(bro);
            bro.Margin = new Padding(25,5,25,25);
@@ -233,8 +233,8 @@ namespace newKidsPortal
         
         private void navBar_MouseClick(object sender, MouseEventArgs e)
         {
-            tempoNavBar = navBar.Text;
-            navBar.Text = "";
+            navBar.Focus();
+            navBar.SelectAll();
         }
 
         private void navBar_MouseLeave(object sender, EventArgs e)
@@ -255,6 +255,10 @@ namespace newKidsPortal
                 {
                     navBar.Text = tempoNavBar;
                     n.Show();
+                }
+                else if (navBar.Text.Contains("kidsportal.com"))
+                {
+                    goHomepage();
                 }
                 else
                 {
@@ -277,8 +281,12 @@ namespace newKidsPortal
         {
             text = text.ToLower();
             string newText = "";
+            
             if (!(text.Contains(".com") || text.Contains(".org") || text.Contains(".net")) || text.Contains(' '))
             {
+
+              
+                newText = text;
                 if (text.Contains(' '))
                 {
                     string[] words = navBar.Text.Split(' ');
@@ -288,7 +296,6 @@ namespace newKidsPortal
                         newText += words[x] + '+';
                     }
                 }
-
 
                 bro.Load(searches[set] + newText.TrimEnd('+'));
                 addHistory(searches[set] + newText.TrimEnd('+'));
@@ -300,7 +307,7 @@ namespace newKidsPortal
 
         private void homeClick(object sender, EventArgs e)
         {
-          bro.Load(homepage[set]);
+            goHomepage();
         }
 
         private void forwardButton_Click(object sender, EventArgs e)
@@ -316,11 +323,12 @@ namespace newKidsPortal
         public void goHomepage()
         {
             bro.Load("about:blank");
-            bro.Load(homepage[set]);
+            bro.LoadHtml(datass,"http://kidsportal.com");
+          //  bro.Load(homepage[set]); 
+
         }
 
- 
-
+      
         private void navBar_MouseHover(object sender, EventArgs e)
         {
 
@@ -367,8 +375,10 @@ namespace newKidsPortal
                 if (navBar.Text.Contains("//setting"))
                 {
                     n.Show();
-                }
-                else
+                }else if (navBar.Text.Contains("kidsportal.com"))
+             {
+                goHomepage();
+               }else
                 {
                     if (passURL(navBar.Text))
                     {

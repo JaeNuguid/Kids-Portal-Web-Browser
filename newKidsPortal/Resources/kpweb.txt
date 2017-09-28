@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title> Kids Portal - Child-friendly Web Browser</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-image: url("http://imagizer.imageshack.us/a/img924/3871/AstkMr.png");
+               background-size: 100% 100%;
+			background-repeat: no-repeat;
+			background-color: #42b6f4;
+        background-size:cover
+        }
+
+        input[type=text], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0px;
+            display: inline-block;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: #4090ff;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+            input[type=submit]:hover {
+                background-color: #017eff;
+            }
+
+        table {
+            width: 150%;
+            background-color: transparent;
+        }
+
+        div {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            /* bring your own prefixes */
+            transform: translate(-75%, -50%);
+        }
+
+        img {
+            width: 30%;
+            height: 30%;
+            position: fixed;
+            top: 5%;
+            left: 50%;
+            /* bring your own prefixes */
+            transform: translate(-50%, 0%);
+        }
+    </style>
+</head>
+<body>
+
+
+    <center>
+        <a href="https://github.com/JaeNuguid?tab=repositories">
+            <img src="http://imagizer.imageshack.us/a/img922/8053/MZv46h.png">
+        </a>
+        <div>
+            <FORM method=GET action="http://www.kidrex.org/results">
+                <TABLE bgcolor="#FFFFFF">
+                    <tr>
+                        <td>
+
+                            <INPUT TYPE=text name=q size=80 maxlength=255 placeholder="Search here! (e.g. Math, Science, Videos, Games, etc.)" value="">
+
+                            <INPUT type=submit value="Search">
+                        </td>
+                    </tr>
+                </TABLE>
+            </FORM>
+        </div>
+    </center>
+
+</body>
+
+</html>
