@@ -10,7 +10,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>newKidsPortal</RootNamespace>
     <AssemblyName>newKidsPortal</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <NuGetPackageImportStamp>
@@ -43,6 +43,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -52,6 +53,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
@@ -96,6 +98,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Speech" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -169,6 +172,12 @@
     <Compile Include="TimeLimit.Designer.cs">
       <DependentUpon>TimeLimit.cs</DependentUpon>
     </Compile>
+    <Compile Include="voice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="voice.Designer.cs">
+      <DependentUpon>voice.cs</DependentUpon>
+    </Compile>
     <Compile Include="words.cs" />
     <EmbeddedResource Include="Alert2.resx">
       <DependentUpon>Alert2.cs</DependentUpon>
@@ -209,6 +218,9 @@
     </Compile>
     <EmbeddedResource Include="TimeLimit.resx">
       <DependentUpon>TimeLimit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="voice.resx">
+      <DependentUpon>voice.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="newKidsPortal_TemporaryKey.pfx" />
     <None Include="packages.config" />
@@ -307,6 +319,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="KidsPortal.ico" />
+    <None Include="Resources\171-200.png" />
     <None Include="Resources\kpweb.txt" />
     <None Include="Resources\go1.png" />
     <None Include="Resources\go0.png" />

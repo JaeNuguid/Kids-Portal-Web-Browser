@@ -79,14 +79,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="newKidsPortal.exe" size="1150888">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="newKidsPortal.exe" size="1166760">
       <assemblyIdentity name="newKidsPortal" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>AvNST6KbkgfoofyPzYcT0TrHNkTsGwpxlcyr8hv0P2A=</dsig:DigestValue>
+        <dsig:DigestValue>A9vvnpLyZGT6tTbolmU1MTLXhMR1/T8xj56IULUA10Q=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -105,7 +105,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>nYLc+EUuf7V6L/2+7PW1jfBMdj1l0HWO7MpAsG3QueU=</dsig:DigestValue>
+      <dsig:DigestValue>5Wa3hAN6TjDmbwQOJCUm4SjzcgYdNqmwKX/PrrMytjo=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

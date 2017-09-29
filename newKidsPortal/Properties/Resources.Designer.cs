@@ -73,6 +73,16 @@ namespace newKidsPortal.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _171_200 {
+            get {
+                object obj = ResourceManager.GetObject("171-200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _2 {
             get {
                 object obj = ResourceManager.GetObject("2", resourceCulture);
@@ -280,13 +290,13 @@ namespace newKidsPortal.Properties {
         ///    &lt;style&gt;
         ///        body {
         ///            background-image: url(&quot;http://imagizer.imageshack.us/a/img924/3871/AstkMr.png&quot;);
-        ///            background-size: 100%;
-        ///            -moz-background-size: cover;
-        ///            -o-background-size: cover;
-        ///            background-size: cover;
+        ///               background-size: 100% 100%;
+        ///			background-repeat: no-repeat;
+        ///			background-color: #42b6f4;
+        ///        background-size:cover
         ///        }
         ///
-        ///  [rest of string was truncated]&quot;;.
+        ///        input[ty [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string kpweb {
             get {

@@ -42,6 +42,7 @@
             this.resizeButton = new System.Windows.Forms.PictureBox();
             this.play = new System.Windows.Forms.PictureBox();
             this.bookButton = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.notif = new System.Windows.Forms.NotifyIcon(this.components);
@@ -55,6 +56,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.resizeButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.play)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bookButton)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // Background
@@ -106,6 +108,7 @@
             this.tableLayoutPanel2.Controls.Add(this.resizeButton, 7, 0);
             this.tableLayoutPanel2.Controls.Add(this.play, 4, 0);
             this.tableLayoutPanel2.Controls.Add(this.bookButton, 5, 0);
+            this.tableLayoutPanel2.Controls.Add(this.pictureBox1, 6, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -242,6 +245,18 @@
             this.bookButton.MouseLeave += new System.EventHandler(this.bookOut);
             this.bookButton.MouseHover += new System.EventHandler(this.bookIn);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBox1.Image = global::newKidsPortal.Properties.Resources._171_200;
+            this.pictureBox1.Location = new System.Drawing.Point(585, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(29, 30);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 10;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.voiceC);
+            // 
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick_1);
@@ -282,6 +297,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.resizeButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.play)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bookButton)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -303,6 +319,7 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.NotifyIcon notif;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

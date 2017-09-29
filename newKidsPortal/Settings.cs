@@ -577,5 +577,10 @@ namespace newKidsPortal
             kp.set = 3;
             kp.goHomepage();
         }
+
+        private void protectionLabel2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

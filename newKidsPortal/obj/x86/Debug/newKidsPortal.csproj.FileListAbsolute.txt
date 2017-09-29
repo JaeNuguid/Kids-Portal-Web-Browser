@@ -30,3 +30,4 @@ C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newK
 C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\obj\x86\Debug\newKidsPortal.application
 C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\obj\x86\Debug\newKidsPortal.exe
 C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\obj\x86\Debug\newKidsPortal.pdb
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\obj\x86\Debug\newKidsPortal.voice.resources

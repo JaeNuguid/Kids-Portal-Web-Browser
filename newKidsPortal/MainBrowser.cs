@@ -13,6 +13,9 @@ using CefSharp.WinForms.Internals;
 using newKidsPortal.Resources;
 using System.IO;
 using System.Reflection;
+using System.Speech.Recognition;
+using System.Diagnostics;
+using System.Runtime.InteropServices;
 
 namespace newKidsPortal
 {
@@ -28,21 +31,23 @@ namespace newKidsPortal
         public Login n;
         string[] searches = { "https://www.google.com/search?q=", "http://www.kiddle.co/s.php?q=", "http://www.kidrex.org/results/?q=", "https://www.youtube.com/results?search_query=" };
         public int set = 2;
+        voice vc;
         public string[] config;
         string appDataPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
         string path;
         Bookmark bk;
-
+        SpeechRecognitionEngine recEngine = new SpeechRecognitionEngine();
+        
 
         public KidsPortal()
         {
          InitializeComponent();
          System.IO.Directory.CreateDirectory(appDataPath +@"\KidsPortal");
-           
-            
+            KidsPortalEngine();
+            vc = new voice(this);
             // Start the browser after initialize global component
             InitializeChromium();
-
+            
 
            path = Path.Combine(appDataPath + @"\KidsPortal", "config.txt");
             if (!File.Exists(path))
@@ -77,6 +82,8 @@ namespace newKidsPortal
             bk = new Bookmark(this, appDataPath);
             sett = new Setting(this, appDataPath);
             n = new Login(this, sett, appDataPath);
+
+            onVoice(true);
         }
 
         private void OnBrowserAddressChanged(object sender, AddressChangedEventArgs args)
@@ -86,6 +93,365 @@ namespace newKidsPortal
             urlX = navBar.Text;
         }
 
+        public void KidsPortalEngine()
+        {
+            String[] voices = {"open bookmark","close bookmark","go back","go forward", "how are you", "Who are you", "what are you made of","where are you","how old are you",
+"close browser", "exit browser", "minimize browser", "hide browser", "logout computer", "shutdown computer", "open notepad", "open calculator", "open explorer", "open folder", "what is the time now", "what is the day today", "hi computer", "hello computer", "what is kids portal", "go to kids portal", "increase volume",
+            "decrease volume", "mute volume","go to google", "go to facebook","go to youtube", "go to homepage","go to twitter", "go to wikipedia","go to yahoo", "go to gmail","go to hotmail", "I want to search images","I want to search videos", "I want to search pictures","I want to play games", "search for games","search for pictures", "search for images","I want to learn something", "go to messenger","go to instagram", "go to netflix",
+            "go to linked in","I want to watch videos","I want to watch movies","maximize browser", "go to drop box","go to the developer","open setting", "open voice command","close voice command"};
+            Choices commands = new Choices();
+            commands.Add(voices);
+            GrammarBuilder gBuilder = new GrammarBuilder();
+            gBuilder.Append(commands);
+            Grammar grammar = new Grammar(gBuilder);
+
+            recEngine.LoadGrammarAsync(grammar);
+            recEngine.SetInputToDefaultAudioDevice();
+
+            
+            recEngine.SpeechRecognized += recEngine_SpeechRecognized;
+        }
+        private const int APPCOMMAND_VOLUME_MUTE = 0x80000;
+        private const int APPCOMMAND_VOLUME_UP = 0xA0000;
+        private const int APPCOMMAND_VOLUME_DOWN = 0x90000;
+        private const int WM_APPCOMMAND = 0x319;
+
+        [DllImport("user32.dll")]
+        public static extern IntPtr SendMessageW(IntPtr hWnd, int Msg,
+           IntPtr wParam, IntPtr lParam);
+
+        private void Mute()
+        {
+            SendMessageW(this.Handle, WM_APPCOMMAND, this.Handle,
+                (IntPtr)APPCOMMAND_VOLUME_MUTE);
+        }
+
+        private void VolDown()
+        {
+            SendMessageW(this.Handle, WM_APPCOMMAND, this.Handle,
+                (IntPtr)APPCOMMAND_VOLUME_DOWN);
+        }
+
+        private void VolUp()
+        {
+            SendMessageW(this.Handle, WM_APPCOMMAND, this.Handle,
+                (IntPtr)APPCOMMAND_VOLUME_UP);
+        }
+
+        [DllImport("user32")]
+        public static extern void LockWorkStation();
+
+        public void onVoice(bool on)
+        {
+            if (on)
+            {
+                recEngine.RecognizeAsync(RecognizeMode.Multiple);
+
+            }
+            else
+            {
+                recEngine.RecognizeAsyncStop();
+            }
+        }
+        
+        void recEngine_SpeechRecognized(object sender, SpeechRecognizedEventArgs e)
+        {
+            switch (e.Result.Text)
+            {
+                case "open bookmark":
+                    bk.Show();
+                    break;
+                case "close bookmark":
+                    bk.Hide();
+                    break;
+                case "go back":
+                    bro.Forward();
+                    break;
+
+                case "go forward":
+                    bro.Back();
+                    break;
+
+                case "close browser":
+                    Hide();
+                    break;
+
+
+                case "exit browser":
+                    Hide();
+                    break;
+
+
+                case "minimize browser":
+
+                    WindowState = FormWindowState.Minimized;
+                    break;
+
+                case "maximize browser":
+
+                    WindowState = FormWindowState.Maximized;
+
+                    break;
+
+                case "hide browser":
+                   
+                        WindowState = FormWindowState.Minimized;
+                    
+                    break;
+
+
+                case "logout computer":
+                  LockWorkStation();
+                    break;
+
+
+                case "shutdown computer":
+                    Process.Start("shutdown", "/s /t 0");
+                    break;
+
+
+                case "open notepad":
+                    Process.Start("notepad.exe");
+                    break;
+
+
+                case "open calculator":
+                    Process.Start("calc.exe");
+                    break;
+
+
+                case "open explorer":
+                    Process.Start("explorer.exe");
+                    break;
+
+
+                case "open folder":
+                    Process.Start("explorer.exe");
+                    break;
+
+
+                case "what is the time now":
+                    bro.Load("https://time.is");
+                    break;
+
+
+                case "what is the day today":
+                    bro.Load("https://time.is");
+                    break;
+
+
+                case "hi computer":
+                    MessageBox.Show("Hi there!", "Kids Portal - Voice Command");
+
+                    break;
+
+
+                case "hello computer":
+                    MessageBox.Show("Hello there!", "Kids Portal - Voice Command");
+
+                    break;
+                
+                case "how are you":
+                    MessageBox.Show("I'm good, how about you?", "Kids Portal - Voice Command");
+
+                    break;
+
+
+
+                case "Who are you":
+                    MessageBox.Show("I am the guardian of Kids Portal!", "Kids Portal - Voice Command");
+
+                    break;
+
+
+                case "how old are you":
+                    MessageBox.Show("Probably, your age times infinity", "Kids Portal - Voice Command");
+
+                    break;
+
+                case "where are you":
+                    MessageBox.Show("In front of you!", "Kids Portal - Voice Command");
+
+                    break;
+
+                  
+                case "what are you made of":
+                    MessageBox.Show("A whole bunch of 0s and 1s.", "Kids Portal - Voice Command");
+
+                    break;
+
+
+
+
+
+                case "what is kids portal":
+                    bro.Load("https://github.com/JaeNuguid/Kids-Portal-Version-2/blob/master/README.md");
+                    break;
+
+
+                case "go to kids portal":
+                    bro.Load("https://github.com/JaeNuguid/Kids-Portal-Version-2/blob/master/README.md");
+                    break;
+
+
+                case "increase volume":
+                    VolUp();
+                    break;
+
+
+                case "decrease volume":
+                    VolDown();
+                    break;
+
+
+                case "mute volume":
+                    Mute();
+                    break;
+
+
+                case "go to google":
+                    bro.Load("http://www.google.com");
+                    break;
+
+
+                case "go to facebook":
+                    bro.Load("https://www.facebook.com");
+                    break;
+
+
+                case "go to youtube":
+                    bro.Load("https://www.youtube.com");
+                    break;
+
+
+                case "go to homepage":
+                    goHomepage();
+                    break;
+
+
+                case "go to twitter":
+                    bro.Load("https://www.wikipedia.org");
+                    break;
+
+
+                case "go to wikipedia":
+                    bro.Load("https://www.wikipedia.org");
+                    break;
+
+
+                case "go to yahoo":
+                    bro.Load("http://yahoo.com");
+                    break;
+
+
+                case "go to gmail":
+                    bro.Load("https://mail.google.com/mail/");
+                    break;
+
+
+                case "go to hotmail":
+                    bro.Load("http://hotmail.com");
+                    break;
+
+
+                case "I want to search images":
+                    bro.Load("https://images.google.com");
+                    break;
+
+
+                case "I want to search videos":
+                    bro.Load("https://www.youtube.com");
+                    break;
+
+
+                case "I want to watch videos":
+                    bro.Load("https://www.youtube.com");
+                    break;
+
+
+                case "I want to watch movies":
+                    bro.Load("https://www.youtube.com");
+                    break;
+
+
+
+                case "I want to search pictures":
+                    bro.Load("https://images.google.com");
+                    break;
+
+
+                case "I want to play games":
+                    bro.Load("http://www.y8.com");
+                    break;
+
+
+                case "search for games":
+                    bro.Load("http://www.wordgames.com/");
+                    break;
+
+
+                case "search for pictures":
+                    bro.Load("https://images.google.com");
+                    break;
+
+
+                case "search for images":
+                    bro.Load("https://images.google.com");
+                    break;
+
+
+                case "I want to learn something":
+                    bro.Load("https://zidbits.com");
+                    break;
+
+
+                case "go to messenger":
+                    bro.Load("https://www.messenger.com");
+                    break;
+
+
+                case "go to instagram":
+                    bro.Load("https://www.instagram.com");
+                    break;
+
+
+                case "go to netflix":
+                    bro.Load("https://www.netflix.com/");
+                    break;
+
+
+                case "go to linked in":
+                    bro.Load("https://www.linkedin.com");
+                    break;
+
+
+                case "go to drop box":
+                    bro.Load("https://www.dropbox.com");
+                    break;
+
+
+                case "go to the developer":
+                     bro.Load("https://www.linkedin.com/in/jaenuguid/");
+                    break;
+
+
+                case "open setting":
+                    n.Show();
+                    break;
+
+
+                case "open voice command":
+                    vc.Show();
+                    break;
+
+                case "close voice command":
+                    vc.Hide();
+                    break;
+
+                default:
+                    break;
+            }
+        }
 
         public void reCreate()
         {
@@ -287,7 +653,7 @@ namespace newKidsPortal
 
               
                 newText = text;
-                if (text.Contains(' '))
+                if (text.Contains(" "))
                 {
                     string[] words = navBar.Text.Split(' ');
 
@@ -406,6 +772,11 @@ namespace newKidsPortal
         private void show2(object sender, EventArgs e)
         {
             Show();
+        }
+
+        private void voiceC(object sender, EventArgs e)
+        {
+            vc.Show();
         }
     }
 }
