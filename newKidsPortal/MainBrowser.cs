@@ -21,7 +21,6 @@ namespace newKidsPortal
 {
     public partial class KidsPortal : Form
     {
-
         public string previous = "testing";
         private String tempoNavBar = "";
         public ChromiumWebBrowser bro;

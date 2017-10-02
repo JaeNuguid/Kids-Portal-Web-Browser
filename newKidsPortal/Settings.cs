@@ -21,6 +21,7 @@ namespace newKidsPortal
 
         public bool protection2 = true;
         blockedWords bW = new blockedWords();
+        BoyerMoore boyer;
         ColorDialog colorDialog1 = new ColorDialog();
         String[] urls = { "iexplore", "chrome", "firefox", "opera","taskmgr" };
         string[] tagalog;
@@ -53,7 +54,7 @@ namespace newKidsPortal
             this.kp = kp;
             det = new Detection(this);
             tl = new TimeLimit(store, this);
-            tl.setButtons();
+         
             bW.Hide();
             InitializeComponent();
             importHistory();
@@ -95,8 +96,10 @@ namespace newKidsPortal
                 if (bre) break;
                 foreach (string x in webText)
                 {
-                 
-                    if (x != null  )                                               
+
+                    if (x != null)
+                   //   boyer = new BoyerMoore(webText.ToString()); 
+                   //   if (x.Equals(line, StringComparison.InvariantCultureIgnoreCase) && (boyer.Search(x) ==1) )
                         if (x.Equals(line, StringComparison.InvariantCultureIgnoreCase))
                         {
                             //Testing
@@ -267,20 +270,12 @@ namespace newKidsPortal
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if (tl.checkTime())
+
+            if (tl.checkTime() && (kp.Visible))
             {
-                if (kp.Visible) {
-                    a2.Show();
-                    kp.Hide(); 
-    
-                }
+                a2.Show();
+                kp.Hide();
             }
-            else
-            {
-                if (!kp.Visible)
-                    kp.Show();
-            }
-         
                
                 if (protection)
                 {
@@ -566,9 +561,8 @@ namespace newKidsPortal
 
         private void button10_Click_1(object sender, EventArgs e)
         {
-            tl.setButtons();
             tl.Show();
-            
+            tl.setTimes();
 
         }
 

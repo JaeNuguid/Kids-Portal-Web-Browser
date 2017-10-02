@@ -1136,3 +1136,56 @@
 [0930/003849.857:WARNING:quota_manager.cc(1833)] Create directory failed for path
 [0930/004138.507:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 73
 [0930/004647.910:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1002/150947.593:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1002/150952.679:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1002/150957.701:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1002/150958.381:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1002/151002.711:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1002/151007.721:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1002/151012.729:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1002/151017.739:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1002/151022.749:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1002/151027.764:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1002/151032.794:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1002/151037.804:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1002/151042.814:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1002/151047.824:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1002/151052.844:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1002/151057.851:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1002/151102.861:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1002/151104.771:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1002/151107.871:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[1002/151515.726:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1002/151605.557:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 3
+[1002/151605.954:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 19
+[1002/151718.289:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[1002/151718.290:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[1002/151737.586:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 105
+[1002/152408.193:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1002/153746.702:WARNING:htmlmediaelement.cpp(1949)] currentPlaybackPosition readyState = 4 but no webMeidaPlayer to provide currentPlaybackPosition
+[1002/192932.547:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1002/200300.965:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1002/200411.035:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1002/200420.753:ERROR:render_process_host_impl.cc(2077)] Request for unknown Channel-associated interface: device::mojom::ScreenOrientationListener
+[1002/200543.491:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1002/200653.977:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1002/202656.862:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1002/202915.136:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1002/203002.447:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1002/203015.908:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1002/203135.876:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1002/203148.607:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1002/203248.339:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1002/203803.258:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1002/205839.582:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1002/205921.245:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1002/210143.000:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 49
+[1002/210143.004:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 803
+[1002/210737.646:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1002/210835.521:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[1002/210835.522:WARNING:quota_manager.cc(1833)] Create directory failed for path
+[1002/211623.992:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1002/214040.768:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1002/214237.774:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1002/214258.743:WARNING:spdy_session.cc(2491)] Received WINDOW_UPDATE for invalid stream 111
+[1002/214258.745:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 111

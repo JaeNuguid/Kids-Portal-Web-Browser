@@ -98,6 +98,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.ServiceProcess" />
     <Reference Include="System.Speech" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -128,6 +129,7 @@
     <Compile Include="Bookmark.Designer.cs">
       <DependentUpon>Bookmark.cs</DependentUpon>
     </Compile>
+    <Compile Include="BoyerMoore.cs" />
     <Compile Include="Exception.cs">
       <SubType>Form</SubType>
     </Compile>

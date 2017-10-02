@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Alert2));
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -56,7 +57,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(440, 44);
             this.label2.TabIndex = 6;
-            this.label2.Text = "You are prohibited from using a Web Browser\r\nduring this hour.";
+            this.label2.Text = "You are prohibited from using a Web Browser\r\nduring this time.";
             // 
             // label1
             // 
@@ -102,6 +103,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(523, 235);
             this.MinimumSize = new System.Drawing.Size(523, 235);
             this.Name = "Alert2";
