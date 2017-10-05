@@ -29,20 +29,22 @@ namespace newKidsPortal.Resources
         {
             box1.Text = "";
             box2.Text = "";
+            emailBox.Text = "";
             error.Visible = false;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if((box1.Text != box2.Text) || box1.Text.Length < 6)
+            if((box1.Text != box2.Text) || box1.Text.Length < 6|| emailBox.Text.Length < 6)
             {
                 box1.Text = "";
                 box2.Text = "";
+                emailBox.Text = "";
                 error.Visible = true;
             }
             else
             {
-                string[] config = {"1",box1.Text};
+                string[] config = {"1",emailBox.Text,box1.Text};
                 path = Path.Combine(appDataPath + @"\KidsPortal", "config.txt");
                 System.IO.File.WriteAllLines(path, config);
                 MessageBox.Show("You are successfully registered!\n\n" +

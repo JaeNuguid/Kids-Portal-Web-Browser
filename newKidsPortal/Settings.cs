@@ -104,7 +104,7 @@ namespace newKidsPortal
                         {
                             //Testing
                             //Console.WriteLine(x + " >> " + line);
-
+                            kp.pushData();
                             addReport(kp.navBar.Text, line);
                             det.Show();
                             kp.goHomepage(); 

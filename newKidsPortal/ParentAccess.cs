@@ -31,7 +31,7 @@ namespace newKidsPortal
             path = Path.Combine(appDataPath + @"\KidsPortal", "config.txt");  
             config = System.IO.File.ReadAllLines(path);
             
-            if (box.Text == config[1])
+            if (box.Text == config[2] && email.Text == config[1])
             {
                 set.Show();
                 box.Text = "";

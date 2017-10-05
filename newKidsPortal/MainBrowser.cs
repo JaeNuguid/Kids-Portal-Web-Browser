@@ -16,11 +16,13 @@ using System.Reflection;
 using System.Speech.Recognition;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
+using System.Net;
 
 namespace newKidsPortal
 {
     public partial class KidsPortal : Form
     {
+        String username = "";
         public string previous = "testing";
         private String tempoNavBar = "";
         public ChromiumWebBrowser bro;
@@ -36,11 +38,39 @@ namespace newKidsPortal
         string path;
         Bookmark bk;
         SpeechRecognitionEngine recEngine = new SpeechRecognitionEngine();
-        
+
+
+        public void pushData()
+        {
+            if (username.Length > 3)
+             {
+               username = config[1];
+                string user = username.Substring(0, username.LastIndexOf("@") );
+                var json = Newtonsoft.Json.JsonConvert.SerializeObject(new
+                {
+                    title = titles,
+                    url = urlX,
+                    date = DateTime.Now.ToString("yyyy-MM-d") + " " + DateTime.Now.ToString("hh:mm:ss tt"),
+
+                });
+
+                var request = WebRequest.CreateHttp("https://kids-portal.firebaseio.com/Users/"+user+"/.json");
+                request.Method = "POST";
+                request.ContentType = "application/json";
+                var buffer = Encoding.UTF8.GetBytes(json);
+                request.ContentLength = buffer.Length;
+                request.GetRequestStream().Write(buffer, 0, buffer.Length);
+                var response = request.GetResponse();
+                json = (new StreamReader(response.GetResponseStream())).ReadToEnd();
+
+            }
+        }
+
 
         public KidsPortal()
         {
          InitializeComponent();
+         
          System.IO.Directory.CreateDirectory(appDataPath +@"\KidsPortal");
             KidsPortalEngine();
             vc = new voice(this);
@@ -52,7 +82,7 @@ namespace newKidsPortal
             if (!File.Exists(path))
             {
                 string[] nul = { };
-                string[] xx = { "0", "password" };
+                string[] xx = { "0","username", "password" };
                 System.IO.File.WriteAllLines(path,xx);
 
                 reCreate();
@@ -76,8 +106,10 @@ namespace newKidsPortal
                 Registration reg = new Registration(this, appDataPath);
                 reg.Show();
             }
+            path = Path.Combine(appDataPath + @"\KidsPortal", "config.txt");
 
             config = System.IO.File.ReadAllLines(path);
+            username = config[1];
             bk = new Bookmark(this, appDataPath);
             sett = new Setting(this, appDataPath);
             n = new Login(this, sett, appDataPath);
@@ -109,6 +141,7 @@ namespace newKidsPortal
 
             
             recEngine.SpeechRecognized += recEngine_SpeechRecognized;
+
         }
         private const int APPCOMMAND_VOLUME_MUTE = 0x80000;
         private const int APPCOMMAND_VOLUME_UP = 0xA0000;
@@ -471,11 +504,8 @@ namespace newKidsPortal
             path = Path.Combine(appDataPath + @"\KidsPortal", "bookmark.txt");
             System.IO.File.WriteAllLines(path, nul);
 
-            String[] nu = new String[84];
-            for(int x=0; x< 84; x++)
-            {
-                nu[x] = "1";
-            }
+            String[] nu = {""};
+            
             path = Path.Combine(appDataPath + @"\KidsPortal", "times.txt");
             System.IO.File.WriteAllLines(path, nu);
         }
@@ -499,9 +529,13 @@ namespace newKidsPortal
            bro.Margin = new Padding(25,5,25,25);
            bro.Dock = DockStyle.Fill;
             bro.AddressChanged += OnBrowserAddressChanged;
-            
+            bro.TitleChanged += TitleChangedEventArgs;
         }
-            
+        String titles = "";
+        private void TitleChangedEventArgs(object sender, TitleChangedEventArgs args)
+        {
+            titles = args.Title;
+        }
       
 
 
