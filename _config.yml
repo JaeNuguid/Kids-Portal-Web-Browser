@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-seo-tag
+title: Kids Portal Child-friendly Web Browser
+description: Kids Portal is a child-friendly web browser that protects children from being exposed to inappropriate content
