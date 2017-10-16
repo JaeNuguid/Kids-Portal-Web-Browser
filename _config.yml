@@ -3,3 +3,11 @@ plugins:
   - jekyll-seo-tag
 title: Kids Portal Child-friendly Web Browser
 description: Kids Portal is a child-friendly web browser that protects children from being exposed to inappropriate content
+url: https://jaenuguid.github.io/Kids-Portal-Web-Browser/
+author: Jae Allen Nuguid
+social:
+  name: Jae Allen Nuguid
+  links:
+    - https://www.facebook.com/JaeNuguidBb
+    - https://github.com/JaeNuguid
+    - https://www.linkedin.com/in/jaenuguid/
