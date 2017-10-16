@@ -23,12 +23,16 @@ Whenever the user is surfing online, Kids Portal is running an algorithm that ex
 ## Set-up (Desktop)
 1. Create your Kids Portal account (will be used to access Parent Control Panel)
 <img src="https://image.ibb.co/d3epJ6/1.jpg"/>
+</br>
 2. To access the Parent Control Panel, type "//setting" in the navigation bar
 <img src="https://image.ibb.co/eK29J6/2.jpg"/>
+</br>
 3. Enter your account's email and password to proceed
 <img src="https://image.ibb.co/fFf75m/3.jpg"/>
+</br>
 4. You can now then change Kids Portal theme and protection settings
 <img src="https://image.ibb.co/j0zdBR/4.jpg"/>
+</br>
 
 ## Set-up (With Parent-App)
 1. After installing Kids Portal Parent-App, create an account.
