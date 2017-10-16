@@ -5,13 +5,13 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("newKidsPortal")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Kids Portal")]
+[assembly: AssemblyDescription("Kids Portal is a Child-Friendly Web Browser")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("newKidsPortal")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCompany("Jae Allen Nuguid")]
+[assembly: AssemblyProduct("Kids Portal")]
+[assembly: AssemblyCopyright("Jae Allen Nuguid Copyright ©  2017")]
+[assembly: AssemblyTrademark("Jae Allen Nuguid")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible

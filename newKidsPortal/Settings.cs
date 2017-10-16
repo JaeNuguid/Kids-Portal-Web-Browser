@@ -54,7 +54,7 @@ namespace newKidsPortal
             this.kp = kp;
             det = new Detection(this);
             tl = new TimeLimit(store, this);
-         
+          
             bW.Hide();
             InitializeComponent();
             importHistory();
@@ -67,9 +67,9 @@ namespace newKidsPortal
             tagalog = System.IO.File.ReadAllLines(path);
 
             bW.setWords(english, tagalog);
-            
-      
 
+
+            tl.setTimes();
         }
         
 
@@ -271,7 +271,7 @@ namespace newKidsPortal
         private void timer1_Tick(object sender, EventArgs e)
         {
 
-            if (tl.checkTime() && (kp.Visible))
+            if (!tl.checkTime() && (kp.Visible))
             {
                 a2.Show();
                 kp.Hide();
@@ -558,7 +558,7 @@ namespace newKidsPortal
 
             }
         }
-
+        
         private void button10_Click_1(object sender, EventArgs e)
         {
             tl.Show();
@@ -575,6 +575,18 @@ namespace newKidsPortal
         private void protectionLabel2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Hide();
+            kp.Hide();
+            tl.Hide();
+            Ex.Hide();
+            det.Hide();
+               
+            Application.Exit();
+          Environment.Exit(1);
         }
     }
 }

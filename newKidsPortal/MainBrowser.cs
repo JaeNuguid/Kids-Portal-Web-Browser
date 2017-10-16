@@ -34,7 +34,7 @@ namespace newKidsPortal
         public int set = 2;
         voice vc;
         public string[] config;
-        string appDataPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+            string appDataPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
         string path;
         Bookmark bk;
         SpeechRecognitionEngine recEngine = new SpeechRecognitionEngine();
@@ -59,7 +59,7 @@ namespace newKidsPortal
                 request.ContentType = "application/json";
                 var buffer = Encoding.UTF8.GetBytes(json);
                 request.ContentLength = buffer.Length;
-                request.GetRequestStream().Write(buffer, 0, buffer.Length);
+                request .GetRequestStream().Write(buffer, 0, buffer.Length);
                 var response = request.GetResponse();
                 json = (new StreamReader(response.GetResponseStream())).ReadToEnd();
 
@@ -114,7 +114,7 @@ namespace newKidsPortal
             sett = new Setting(this, appDataPath);
             n = new Login(this, sett, appDataPath);
 
-            onVoice(true);
+            onVoice(false);
         }
 
         private void OnBrowserAddressChanged(object sender, AddressChangedEventArgs args)
@@ -504,7 +504,7 @@ namespace newKidsPortal
             path = Path.Combine(appDataPath + @"\KidsPortal", "bookmark.txt");
             System.IO.File.WriteAllLines(path, nul);
 
-            String[] nu = {""};
+            String[] nu = { "00:00 to 23:59 every Monday-Tuesday-Wednesday-Thursday-Friday-Saturday-Sunday" };
             
             path = Path.Combine(appDataPath + @"\KidsPortal", "times.txt");
             System.IO.File.WriteAllLines(path, nu);

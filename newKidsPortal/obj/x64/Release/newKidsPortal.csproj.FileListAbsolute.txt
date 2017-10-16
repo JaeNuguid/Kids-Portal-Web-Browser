@@ -1,0 +1,35 @@
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\bin\x64\Release\Kids Portal.exe.config
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\bin\x64\Release\Kids Portal.exe.manifest
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\bin\x64\Release\Kids Portal.application
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\bin\x64\Release\Kids Portal.exe
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\bin\x64\Release\Kids Portal.pdb
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\bin\x64\Release\CefSharp.Core.dll
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\bin\x64\Release\CefSharp.dll
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\bin\x64\Release\CefSharp.WinForms.dll
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\bin\x64\Release\Newtonsoft.Json.dll
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\bin\x64\Release\CefSharp.WinForms.pdb
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\bin\x64\Release\CefSharp.WinForms.xml
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\bin\x64\Release\CefSharp.pdb
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\bin\x64\Release\CefSharp.xml
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\bin\x64\Release\CefSharp.Core.pdb
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\bin\x64\Release\CefSharp.Core.xml
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\bin\x64\Release\Newtonsoft.Json.xml
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\obj\x64\Release\newKidsPortal.Alert2.resources
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\obj\x64\Release\newKidsPortal.blockedWords.resources
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\obj\x64\Release\newKidsPortal.Bookmark.resources
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\obj\x64\Release\newKidsPortal.Exception.resources
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\obj\x64\Release\newKidsPortal.KidsPortal.resources
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\obj\x64\Release\newKidsPortal.Login.resources
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\obj\x64\Release\newKidsPortal.Resources.Registration.resources
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\obj\x64\Release\newKidsPortal.Setting.resources
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\obj\x64\Release\newKidsPortal.Detection.resources
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\obj\x64\Release\newKidsPortal.Properties.Resources.resources
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\obj\x64\Release\newKidsPortal.TimeLimit.resources
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\obj\x64\Release\newKidsPortal.voice.resources
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\obj\x64\Release\newKidsPortal.csproj.GenerateResource.Cache
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\obj\x64\Release\newKidsPortal.csproj.CoreCompileInputs.cache
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\obj\x64\Release\Kids Portal.TrustInfo.xml
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\obj\x64\Release\Kids Portal.exe.manifest
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\obj\x64\Release\Kids Portal.application
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\obj\x64\Release\Kids Portal.exe
+C:\Users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\obj\x64\Release\Kids Portal.pdb

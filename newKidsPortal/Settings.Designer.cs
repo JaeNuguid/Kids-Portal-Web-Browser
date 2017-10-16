@@ -85,6 +85,7 @@ namespace newKidsPortal
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button11 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -709,12 +710,24 @@ namespace newKidsPortal
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // button11
+            // 
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Location = new System.Drawing.Point(12, 436);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(168, 23);
+            this.button11.TabIndex = 5;
+            this.button11.Text = "CLOSE KIDS PORTAL";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
+            // 
             // Setting
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(630, 471);
+            this.Controls.Add(this.button11);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);
@@ -812,5 +825,6 @@ namespace newKidsPortal
         private Button protectionButton2;
         private Button button10;
         private RadioButton radioButton4;
+        private Button button11;
     }
 }

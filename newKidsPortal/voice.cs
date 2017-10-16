@@ -30,14 +30,14 @@ namespace newKidsPortal
             foreach (string x in voices)
                 box.Items.Add(x);
         }
-        public bool on= true;
+        public bool on= false;
 
         private void voiceBtn_Click(object sender, EventArgs e)
         {
             if (on)
             {
                 on = false;
-                voiceLabel.Text = "Web Control is currently turend off.";
+                voiceLabel.Text = "Web Control is currently turned off.";
                 voiceBtn.ForeColor = Color.Red;
                 voiceBtn.Text = "TURN ON";
                 
@@ -45,7 +45,7 @@ namespace newKidsPortal
             else
             {
                 on= true;
-                voiceLabel.Text = "Web Control is currently turend on.";
+                voiceLabel.Text = "Web Control is currently turned on.";
                 voiceBtn.ForeColor = Color.Green;
                 voiceBtn.Text = "TURN OFF";
 

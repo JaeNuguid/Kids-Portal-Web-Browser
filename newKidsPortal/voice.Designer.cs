@@ -76,13 +76,13 @@
             // 
             this.voiceLabel.AutoSize = true;
             this.voiceLabel.Font = new System.Drawing.Font("Open Sans", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.voiceLabel.ForeColor = System.Drawing.Color.Green;
+            this.voiceLabel.ForeColor = System.Drawing.Color.Red;
             this.voiceLabel.Location = new System.Drawing.Point(392, 165);
             this.voiceLabel.Name = "voiceLabel";
             this.voiceLabel.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.voiceLabel.Size = new System.Drawing.Size(224, 17);
+            this.voiceLabel.Size = new System.Drawing.Size(222, 17);
             this.voiceLabel.TabIndex = 12;
-            this.voiceLabel.Text = "Voice Command is currently turned on.";
+            this.voiceLabel.Text = "Voice Command is currently turned off";
             this.voiceLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // voiceBtn
@@ -94,7 +94,7 @@
             this.voiceBtn.Name = "voiceBtn";
             this.voiceBtn.Size = new System.Drawing.Size(293, 52);
             this.voiceBtn.TabIndex = 11;
-            this.voiceBtn.Text = "TURN OFF";
+            this.voiceBtn.Text = "TURN ON";
             this.voiceBtn.UseVisualStyleBackColor = false;
             this.voiceBtn.Click += new System.EventHandler(this.voiceBtn_Click);
             // 
