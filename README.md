@@ -1,4 +1,4 @@
-# Kids Portal: A Child-safe Web Browser 
+# Kids Portal: A Child-Friendly Web Browser 
 <center>
 <a href="https://www.linkedin.com/in/jaenuguid/">
   <img src="https://github.com/JaeNuguid/Kids-Portal-Version-2/blob/master/newKidsPortal/Resources/KidsPortal.png?raw=true" width="250" height="250"/>
