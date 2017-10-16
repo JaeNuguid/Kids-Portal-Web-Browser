@@ -5,6 +5,7 @@
   </head>
     
   <body>
+    
 # Kids Portal: A Child-safe Web Browser 
 <center>
 <a href="https://www.linkedin.com/in/jaenuguid/">
