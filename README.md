@@ -13,10 +13,27 @@ Kids Portal is a child-safe web browser, where it aims to help parents to worry 
 Firstly, unlike any similar web browser, with an intention to protect the user from inappropriate content, Kids Portal does not have a database of flagged or malicious websites, it does not have a list of URLs to block. What Kids Portal have is a locally stored library of words, words that are inappropriate such as profanities and swear words, words that children should not be exposed to.
 
 ## How?
-Whenever the user is surfing online, Kids Portal is running an algorithm that extracts or scrapes the text from the web page, and then checking it if it contains an inappropriate word. If it does, the page will not be blocked, but the user will not be able to access it. A bit of contradiction, but the simple explanation is, it does not block any website, but it blocks the page that contains a bad word. Meaning, the blocking is dependent upon the content, not the URL or such.
+Whenever the user is surfing online, Kids Portal is running an algorithm that extracts or scrapes the text from the web page, and then checking it if it contains an inappropriate word. If it does, the page will not be blocked, but the user will not be able to access it. A bit of contradiction, but the simple explanation is, it does not block any website, but it redirects the user to a safe page instantaneously.
 
-## Installation
-soon...
+## Download 
+- [Web Browser (Desktop)](https://github.com/JaeNuguid/Kids-Portal-Web-Browser/releases/download/v1.0/Kids.Portal.-.Parent.App.zip)
+- [Web Browser (Android)](https://github.com/JaeNuguid/Kids-Portal-Web-Browser/releases/download/v1.0/Kids.Portal.-.Android.Web.Browser.zip)
+- [Parent-App (Android)](https://github.com/JaeNuguid/Kids-Portal-Web-Browser/releases/download/v1.0/Kids.Portal.-.Parent.App.zip)
 
+## Set-up (Desktop)
+1. Create your Kids Portal account (will be used to access Parent Control Panel)
+<img src="https://image.ibb.co/d3epJ6/1.jpg"/>
+2. To access the Parent Control Panel, type "//setting" in the navigation bar
+<img src="https://image.ibb.co/eK29J6/2.jpg"/>
+3. Enter your account's email and password to proceed
+<img src="https://image.ibb.co/fFf75m/3.jpg"/>
+4. You can now then change Kids Portal theme and protection settings
+<img src="https://image.ibb.co/j0zdBR/4.jpg"/>
 
-Jae Allen R. Nuguid - September 01, 2017
+## Set-up (With Parent-App)
+1. After installing Kids Portal Parent-App, create an account.
+2. Using this account, "log in" to Kids Portal Web Browser (Android) (app for the kids / on any android devices)
+3. Using the same account, "register" to Kids Portal Web Browser (Desktop) (app for the kids / on any Windows desktop)
+
+*With the parent-app, the parent will be able to get notified and view their child's report history.
+
