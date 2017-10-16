@@ -1,5 +1,6 @@
 <html>
     <head>
+        <meta name="google-site-verification" content="AaR6V2o4_VluqATxM9iNMcx3Kn5laUvCcC-LP5tRpQU" />
     {% include head.html %}
     {% seo %}
   </head>
