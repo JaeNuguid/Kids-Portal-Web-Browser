@@ -1,3 +1,9 @@
+<html>
+    <head>
+    {% include head.html %}
+    {% seo %}
+  </head>
+  <body>
 # Kids Portal: A Child-safe Web Browser 
 <center>
 <a href="https://www.linkedin.com/in/jaenuguid/">
@@ -36,4 +42,5 @@ Whenever the user is surfing online, Kids Portal is running an algorithm that ex
 3. Using the same account, "register" to Kids Portal Web Browser (Desktop) (app for the kids / on any Windows desktop)
 
 *With the parent-app, the parent will be able to get notified and view their child's report history.
-
+</body>
+</html>
