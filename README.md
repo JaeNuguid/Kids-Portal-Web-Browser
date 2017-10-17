@@ -20,7 +20,7 @@ Whenever the user is surfing online, Kids Portal is running an algorithm that ex
 - [Web Browser (Android)](https://github.com/JaeNuguid/Kids-Portal-Web-Browser/releases/download/v1.0/Kids.Portal.-.Android.Web.Browser.zip) / [Download from Google Drive](https://drive.google.com/open?id=0B_WzAmhwFx0fVWdDMjIybURhM2s)
 - [Parent-App (Android)](https://github.com/JaeNuguid/Kids-Portal-Web-Browser/releases/download/v1.0/Kids.Portal.-.Parent.App.zip) / [Download from Google Drive](https://drive.google.com/open?id=0B_WzAmhwFx0fSzlyUGdYRWlGQTQ)
 
-## Set-up (Desktop)
+## Setup (Desktop)
 1. Create your Kids Portal account (will be used to access Parent Control Panel)
 <img src="https://image.ibb.co/d3epJ6/1.jpg"/>
 <br><br>
@@ -34,7 +34,7 @@ Whenever the user is surfing online, Kids Portal is running an algorithm that ex
 <img src="https://image.ibb.co/j0zdBR/4.jpg"/>
 <br><br>
 
-## Set-up (With Parent-App)
+## Setup (With Parent-App)
 1. After installing Kids Portal Parent-App, create an account.
 2. Using this account, "log in" to Kids Portal Web Browser (Android) (app for the kids / on any android devices)
 3. Using the same account, "register" to Kids Portal Web Browser (Desktop) (app for the kids / on any Windows desktop)
