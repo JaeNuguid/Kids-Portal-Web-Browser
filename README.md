@@ -54,5 +54,9 @@ Whenever the user is surfing online, Kids Portal is running an algorithm that ex
 <br><br>
 
 ## Developers
-[Jae Allen Nuguid](https://www.facebook.com/JaeNuguidBb)
-[Lawrence Benisano](https://www.facebook.com/SharkBoyMac)
+[Jae Allen Nuguid](https://www.facebook.com/JaeNuguidBb) - Software Development, Implementation, Testing, & Deployment <br>
+
+[Lawrence Benisano](https://www.facebook.com/SharkBoyMac) - GUI Designing & Software Documentation
+
+## Benefactor
+[Calvin Joseph Martin](https://www.facebook.com/Peppy.Halimaw) - Laptops & Android Devices
