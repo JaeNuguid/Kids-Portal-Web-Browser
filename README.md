@@ -49,3 +49,10 @@ Whenever the user is surfing online, Kids Portal is running an algorithm that ex
 3. Using the same account, "register" to Kids Portal Web Browser (Desktop) (app for the kids / on any Windows desktop)
 
 *With the parent-app, the parent will be able to get notified and view their child's report history.
+
+<br><br>
+<br><br>
+
+## Developers
+[Jae Allen Nuguid](https://www.facebook.com/JaeNuguidBb)
+[Lawrence Benisano](https://www.facebook.com/SharkBoyMac)
