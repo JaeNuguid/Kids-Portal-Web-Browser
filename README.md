@@ -48,8 +48,8 @@ Whenever the user is surfing online, Kids Portal is running an algorithm that ex
 2. Using this account, "log in" to Kids Portal Web Browser (Android) (app for the kids / on any android devices)
 3. Using the same account, "register" to Kids Portal Web Browser (Desktop) (app for the kids / on any Windows desktop)
 
-*With the parent-app, the parent will be able to get notified and view their child's report history.
-
+<i>With the parent-app, the parent will be able to get notification and view their child's report history.
+</i>
 <br><br>
 <br><br>
 
@@ -60,3 +60,5 @@ Whenever the user is surfing online, Kids Portal is running an algorithm that ex
 
 ## Benefactor
 [Calvin Joseph Martin](https://www.facebook.com/Peppy.Halimaw) - Laptops & Android Devices
+<br><br>
+<br><br>
