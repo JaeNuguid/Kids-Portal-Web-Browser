@@ -17,8 +17,8 @@ Whenever the user is surfing online, Kids Portal is running an algorithm that ex
 
 ## Download 
 - [Web Browser (Windows desktop)](https://github.com/JaeNuguid/Kids-Portal-Web-Browser/releases/download/v1.0/Kids.Portal.-.Parent.App.zip) / [Download from Google Drive](https://drive.google.com/open?id=0B_WzAmhwFx0fb2xpc2ZUUS1TeDg)
-- [Web Browser (Android)](https://github.com/JaeNuguid/Kids-Portal-Web-Browser/releases/download/v1.0/Kids.Portal.-.Android.Web.Browser.zip) / [Download from Google Drive](https://drive.google.com/open?id=0B_WzAmhwFx0fVWdDMjIybURhM2s)
-- [Parent-App (Android)](https://github.com/JaeNuguid/Kids-Portal-Web-Browser/releases/download/v1.0/Kids.Portal.-.Parent.App.zip) / [Download from Google Drive](https://drive.google.com/open?id=0B_WzAmhwFx0fSzlyUGdYRWlGQTQ)
+- [Web Browser (Android)](https://github.com/JaeNuguid/Kids-Portal-Web-Browser/releases/download/v1.0/Kids.Portal.-.Android.Web.Browser.zip) / [Download from Google Drive](https://drive.google.com/open?id=0B_WzAmhwFx0fWWlGZW5INGpfMkU)
+- [Parent-App (Android)](https://github.com/JaeNuguid/Kids-Portal-Web-Browser/releases/download/v1.0/Kids.Portal.-.Parent.App.zip) / [Download from Google Drive](https://drive.google.com/open?id=0B_WzAmhwFx0faFpuSVBhb2tWOEU)
 
 ## Setup (Desktop)
 1. Create your Kids Portal account (will be used to access Parent Control Panel)
