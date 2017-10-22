@@ -63,7 +63,14 @@ Kids Portal Android Web Browser is also<br>
 
 [Lawrence Benisano](https://www.facebook.com/SharkBoyMac) - GUI Designing & Software Documentation
 
-## Benefactor
-[Calvin Joseph Martin](https://www.facebook.com/Peppy.Halimaw) - Laptops & Android Devices
+## Technician
+[Calvin Joseph Martin](https://www.facebook.com/Peppy.Halimaw) - Technical Maintenance
 <br><br>
 <br><br>
+
+## Donate
+We are proudly non-profit, non-corporate and non-compromised. Thousands of people like you help us stand up for the protection of children in this era of technology. We rely on donations to carry out our mission to keep this project running, open, and free.
+
+<img src="https://i.imgur.com/lq5qDIv.png"/><br>
+If you want to donate but do not have bitcoin, do not hesitate to [contact us](https://www.facebook.com/JaeNuguidBb). Thank you!
+
