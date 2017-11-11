@@ -86,7 +86,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>IbKp8cfGFQWH+DfsiPd5NNheQkO07yDLcsRV4zu68N8=</dsig:DigestValue>
+        <dsig:DigestValue>/YTyABxCE5rVrfmmcKTkexVvkQPZ4q6nIwK7zseYOGw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -234,7 +234,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>61t3TMsRojDDA0BXTXcZsWjhdYKqyoDyYzTSiOCQv2k=</dsig:DigestValue>
+      <dsig:DigestValue>U3qcxF/h03gzGu3HM4J8HYyvevRtdsqJQSZmmTQzdl0=</dsig:DigestValue>
     </hash>
   </file>
   <file name="KidsPortal.ico" size="44860">
@@ -741,13 +741,13 @@
       <dsig:DigestValue>Z0fGaCy0eLsYfG74VuDnm83HRsnD2GWq/WGC5iyj8s4=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Resources\kpweb.txt" size="2473">
+  <file name="Resources\kpweb.txt" size="2480">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>kG4u6r4x8PF/vB/UkbK8HNtdoGAmaaiv3Npa5t+3xpA=</dsig:DigestValue>
+      <dsig:DigestValue>CPFbjpL0SP6jnOL7+64Nbfpj5jmP0Ir47FIaPhEdu4I=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Resources\libcef.dll" size="67109376">

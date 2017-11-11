@@ -66,7 +66,7 @@
 
 
     <center>
-        <a href="https://github.com/JaeNuguid?tab=repositories">
+        <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/">
             <img src="http://imagizer.imageshack.us/a/img922/8053/MZv46h.png">
         </a>
         <div>

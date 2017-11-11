@@ -317,12 +317,12 @@ namespace newKidsPortal
 
 
                 case "what is kids portal":
-                    bro.Load("https://github.com/JaeNuguid/Kids-Portal-Version-2/blob/master/README.md");
+                    bro.Load("https://jaenuguid.github.io/Kids-Portal-Web-Browser/");
                     break;
 
 
                 case "go to kids portal":
-                    bro.Load("https://github.com/JaeNuguid/Kids-Portal-Version-2/blob/master/README.md");
+                    bro.Load("https://jaenuguid.github.io/Kids-Portal-Web-Browser/");
                     break;
 
 
@@ -522,7 +522,7 @@ namespace newKidsPortal
             // Initialize cef with the provided settings
             Cef.Initialize(settings);
             // Create a browser component
-           bro = new ChromiumWebBrowser("https://github.com/JaeNuguid");
+           bro = new ChromiumWebBrowser("https://jaenuguid.github.io/Kids-Portal-Web-Browser/");
             goHomepage();
             // Add it to the form and fill it to the form window.
             panel.Controls.Add(bro);
