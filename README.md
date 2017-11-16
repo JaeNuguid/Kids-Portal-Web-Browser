@@ -25,7 +25,7 @@ Firstly, unlike any similar web browser, with an intention to protect the user f
 Whenever the user is surfing online, Kids Portal is running an algorithm that extracts or scrapes the text from the web page, and then checking it if it contains an inappropriate word. If it does, the page will not be blocked, but the user will not be able to access it. A bit of contradiction, but the simple explanation is, it does not block any website, but it redirects the user to a safe page instantaneously.
 
 ## Download Links
-- [Web Browser (Windows desktop)](https://github.com/JaeNuguid/Kids-Portal-Web-Browser/releases/download/v1.0/Kids.Portal.-.Parent.App.zip) / [Download from Google Drive](https://drive.google.com/open?id=1lGY6mto5FRUzyV7SJLYzTtdPM6UROIz1)
+- [Web Browser (Windows desktop)](https://github.com/JaeNuguid/Kids-Portal-Web-Browser/releases/download/v1.0/Kids.Portal.Setup.exe) / [Download from Google Drive](https://drive.google.com/open?id=1lGY6mto5FRUzyV7SJLYzTtdPM6UROIz1)
 - [Web Browser (Android)](https://github.com/JaeNuguid/Kids-Portal-Web-Browser/releases/download/v1.0/Kids.Portal.-.Android.Web.Browser.zip) / [Download from Google Drive](https://drive.google.com/open?id=1m14E7XMM2abh8nmdUb4TNGQFRoisfhw0)
 - [Parent-App (Android)](https://github.com/JaeNuguid/Kids-Portal-Web-Browser/releases/download/v1.0/Kids.Portal.-.Parent.App.zip) / [Download from Google Drive](https://drive.google.com/open?id=1ahORfgfn572kIzDY9VDq-sfayngiMu3h)
 
