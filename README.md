@@ -29,10 +29,9 @@ Whenever the user is surfing online, Kids Portal is running an algorithm that ex
 - [Web Browser (Android)](https://github.com/JaeNuguid/Kids-Portal-Web-Browser/releases/download/v1.0/Kids.Portal.-.Android.Web.Browser.zip) / [Download from Google Drive](https://drive.google.com/open?id=1m14E7XMM2abh8nmdUb4TNGQFRoisfhw0)
 - [Parent-App (Android)](https://github.com/JaeNuguid/Kids-Portal-Web-Browser/releases/download/v1.0/Kids.Portal.-.Parent.App.zip) / [Download from Google Drive](https://drive.google.com/open?id=1ahORfgfn572kIzDY9VDq-sfayngiMu3h)
 
-Kids Portal Android Web Browser is also<br>
-<a href="https://www.amazon.com/dp/B076KQP8CS/">
-  <img width="30%" src="http://rikaigames.com/bitbybit/img/Amazon-App-Store.png"/>
-</a>
+# You can also download from trusted app store (Amazon and Google Play)<br>
+- [Amazon : Kids Portal - Web Browser](https://www.amazon.com/dp/B076KQP8CS/)
+- [Amazon : Kids Portal - Parent-App](https://www.amazon.com/dp/B077GYH6YB)
 
 ## Setup (Desktop)
 1. Create your Kids Portal account (will be used to access Parent Control Panel)
