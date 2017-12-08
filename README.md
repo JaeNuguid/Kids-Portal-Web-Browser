@@ -68,7 +68,7 @@ Whenever the user is surfing online, Kids Portal is running an algorithm that ex
 <br><br>
 <br><br>
 
-## Donate
+## Donate<a id="target">!</a></h2>
 We are proudly non-profit, non-corporate and non-compromised. Thousands of people like you help us stand up for the protection of children in this era of technology. We rely on donations to carry out our mission to keep this project running, open, and free.
 
 <img src="https://i.imgur.com/lq5qDIv.png"/><br>
