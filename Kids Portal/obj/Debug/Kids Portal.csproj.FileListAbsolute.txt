@@ -1,0 +1,10 @@
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\bin\Debug\Kids Portal.exe.config
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\bin\Debug\Kids Portal.exe
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\bin\Debug\Kids Portal.pdb
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\obj\Debug\Kids Portal.csprojResolveAssemblyReference.cache
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\obj\Debug\Kids_Portal.Form1.resources
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\obj\Debug\Kids_Portal.Properties.Resources.resources
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\obj\Debug\Kids Portal.csproj.GenerateResource.Cache
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\obj\Debug\Kids Portal.csproj.CoreCompileInputs.cache
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\obj\Debug\Kids Portal.exe
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\obj\Debug\Kids Portal.pdb

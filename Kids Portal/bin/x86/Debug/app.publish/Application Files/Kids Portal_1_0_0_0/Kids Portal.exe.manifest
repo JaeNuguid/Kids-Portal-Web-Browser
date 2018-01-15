@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Kids Portal.exe" version="1.0.0.0" publicKeyToken="49707e2bf44aaaf2" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Resources\KidsPortal.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Kids Portal" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Kids Portal.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CefSharp.dll" size="185344">
+      <assemblyIdentity name="CefSharp" version="57.0.0.0" publicKeyToken="40C4B6FC221F4138" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>2qJ8se2voWwd8CnfX1b0oHrTDFK4y5KW4/ag8Ej32m4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CefSharp.Core.dll" size="1227264">
+      <assemblyIdentity name="CefSharp.Core" version="57.0.0.0" publicKeyToken="40C4B6FC221F4138" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ML/h0LHYBQDcs1KBw/NoRM2e81i5F28S3vHECHVGCZg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CefSharp.WinForms.dll" size="23552">
+      <assemblyIdentity name="CefSharp.WinForms" version="57.0.0.0" publicKeyToken="40C4B6FC221F4138" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+JDpHdK4L/2rk0o/DePRYgKmrZ0kMcb+OU28uuAfDMg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HtmlAgilityPack.dll" size="144384">
+      <assemblyIdentity name="HtmlAgilityPack" version="1.6.7.0" publicKeyToken="BD319B19EAF3B43A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+Vvezn1VpmlfdjSOCXveOY57M4chXts5slraacTjuu0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Kids Portal.exe" size="851880">
+      <assemblyIdentity name="Kids Portal" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+03ZDcZA8gqjptJi+48szojI/UQezSXQUq64CixmKpA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="653824">
+      <assemblyIdentity name="Newtonsoft.Json" version="10.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>lz/XDOSOWsQzoQG0KHFoDFHi/roq7sPUAN6kEVrzong=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Kids Portal.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\KidsPortal.ico" size="44860">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dnuUW09RF1SC7+7CdUSyBTWpA0O8lebzVfeyDPzkkIY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\previous.png" size="1292">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cqrWlFDkwXcZH6JCY23txEipvHssLCnj0ORyvm516ck=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=JAE\Jae" issuerKeyHash="321b097f3315d802c71908b496e17069f3dbdab6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ml6d7s0ScM+2jRxku9Vz3ULIcA03zrLpDt5DKRFSjz4=</DigestValue></Reference></SignedInfo><SignatureValue>On58WPwl9kWOj6n2AshECHzUzY+yrzCzf8do58a4iOjCJxs5psVGmLF9wEKkzMzMQiGjpr146zo9cmiFoQM3cQEOyQHxOMM8Qb2XM/jWv3Vr40LCyQImbuJph+IDn1CjT2tAw1UFBBtb385yiNzyrad9IL6aGxH40BHldMH3Ipo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>/R+ZT7UcCxpgO1zByB+XRfueLJj4VxbqAoAVg/iIzayt7TK5LU/RnC5B4eNDv/fR5HdaDz7QHrhcW+PCNplgv4Hs57hHjLha6ukOHnRoYhSwTczFCZzOIofdba8IX+mFdTZYYnMhjwxlSLOdMhoFmspCrzrTDeHwAqmoYJrwk50=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3e8f52112943de0ee9b2ce370d70c842dd73d5bb641c8db6cf7012cdee9d5e9a" Description="" Url=""><as:assemblyIdentity name="Kids Portal.exe" version="1.0.0.0" publicKeyToken="49707e2bf44aaaf2" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=JAE\Jae</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>m1BsViz/npKMSGfp8cxxsg6iDkdx65Uk/MwUftWWa2s=</DigestValue></Reference></SignedInfo><SignatureValue>37ddIymiv2z2E/oinnV86HaQy1AeJN8VlOd/+zjiUaBSPckDOmxSTOeA3F7PE84nyA/f3L3AyWiUs3qMwOG7cMKSxUK59Op+eiA6vXt8a3u5I2LN3FTQp+ayj2wF3G/e14rE4NHhZSn926WVbopBgEjY77YqNhFtaIBLs08QorE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>/R+ZT7UcCxpgO1zByB+XRfueLJj4VxbqAoAVg/iIzayt7TK5LU/RnC5B4eNDv/fR5HdaDz7QHrhcW+PCNplgv4Hs57hHjLha6ukOHnRoYhSwTczFCZzOIofdba8IX+mFdTZYYnMhjwxlSLOdMhoFmspCrzrTDeHwAqmoYJrwk50=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBtTCCAR6gAwIBAgIQIr6Q7+D2a41IXfC4P401YjANBgkqhkiG9w0BAQsFADAZMRcwFQYDVQQDHg4ASgBBAEUAXABKAGEAZTAeFw0xODAxMTUxNDA2MjRaFw0xOTAxMTUyMDA2MjRaMBkxFzAVBgNVBAMeDgBKAEEARQBcAEoAYQBlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD9H5lPtRwLGmA7XMHIH5dF+54smPhXFuoCgBWD+IjNrK3tMrktT9GcLkHh40O/99Hkd1oPPtAeuFxb48I2mWC/geznuEeMuFrq6Q4edGhiFLBNzMUJnM4ih91trwhf6YV1NlhicyGPDGVIs50yGgWaykKvOtMN4fACqahgmvCTnQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAK4YCYSIRhURI1gWH+sjB3gPOTB4qpCA5SfHhIY9m9W83Eo8CkZ6Nb0kn48onUW+7EJ/wuytkZgR9CmKWd4F4NRVpqGZeOBBiIDocfjZG+uVcm4dNwIcIE/LBkd3LzW31JyDTXmynsEsxyKWB/mIhaexE6U+C7rRar74Ng+ep7gp</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,9 +1,0 @@
-c:\users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\bin\Debug\newKidsPortal.exe
-c:\users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\bin\Debug\newKidsPortal.exe.config
-c:\users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\obj\Debug\newKidsPortal.Form1.resources
-c:\users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\obj\Debug\newKidsPortal.Properties.Resources.resources
-c:\users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\obj\Debug\newKidsPortal.csproj.GenerateResource.Cache
-c:\users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\obj\Debug\newKidsPortal.exe
-c:\users\johnson@entsgp\documents\visual studio 2017\Projects\newKidsPortal\newKidsPortal\obj\Debug\newKidsPortal.pdb
-C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\newKidsPortal\newKidsPortal\bin\Debug\newKidsPortal.pdb
-C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\newKidsPortal\newKidsPortal\obj\Debug\newKidsPortal.csprojResolveAssemblyReference.cache

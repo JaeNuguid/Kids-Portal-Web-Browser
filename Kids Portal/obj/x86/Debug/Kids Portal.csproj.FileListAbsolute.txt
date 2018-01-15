@@ -1,0 +1,37 @@
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\bin\x86\Debug\CefSharp.dll
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\bin\x86\Debug\Kids Portal.exe.config
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\bin\x86\Debug\Kids Portal.exe
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\bin\x86\Debug\Kids Portal.pdb
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\bin\x86\Debug\CefSharp.Core.dll
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\bin\x86\Debug\CefSharp.WinForms.dll
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\bin\x86\Debug\HtmlAgilityPack.dll
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\bin\x86\Debug\CefSharp.WinForms.pdb
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\bin\x86\Debug\CefSharp.WinForms.xml
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\bin\x86\Debug\CefSharp.pdb
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\bin\x86\Debug\CefSharp.xml
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\bin\x86\Debug\CefSharp.Core.pdb
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\bin\x86\Debug\CefSharp.Core.xml
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\bin\x86\Debug\HtmlAgilityPack.pdb
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\bin\x86\Debug\HtmlAgilityPack.xml
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\bin\x86\Debug\Newtonsoft.Json.xml
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\obj\x86\Debug\Kids Portal.csprojResolveAssemblyReference.cache
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\obj\x86\Debug\Kids_Portal.Access.resources
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\obj\x86\Debug\Kids_Portal.adminLogin.resources
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\obj\x86\Debug\Kids_Portal.BlockContent.resources
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\obj\x86\Debug\Kids_Portal.BrowserControlWarning.resources
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\obj\x86\Debug\Kids_Portal.Form1.resources
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\obj\x86\Debug\Kids_Portal.Internet.resources
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\obj\x86\Debug\Kids_Portal.Loading.resources
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\obj\x86\Debug\Kids_Portal.Locked.resources
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\obj\x86\Debug\Kids_Portal.Plugin.resources
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\obj\x86\Debug\Kids_Portal.Properties.Resources.resources
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\obj\x86\Debug\Kids_Portal.Settings.resources
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\obj\x86\Debug\Kids Portal.csproj.GenerateResource.Cache
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\obj\x86\Debug\Kids Portal.csproj.CoreCompileInputs.cache
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\obj\x86\Debug\Kids Portal.exe
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\obj\x86\Debug\Kids Portal.pdb
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\bin\x86\Debug\Kids Portal.exe.manifest
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\bin\x86\Debug\Kids Portal.application
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\obj\x86\Debug\Kids Portal.exe.manifest
+C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\obj\x86\Debug\Kids Portal.application
