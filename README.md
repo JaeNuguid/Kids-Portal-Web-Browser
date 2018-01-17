@@ -1,4 +1,3 @@
-
 <center> 
 <a href="https://github.com/JaeNuguid">
   <img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/Kids%20Portal/Resources/KidsPortal.png?raw=true" width="250" height="250"/>
@@ -29,18 +28,16 @@
 Kids Portal is a lightweight web browser based on Chromium. It is not meant to replace full featured, robust desktop web browsers such as Google Chrome, Firefox, or Opera, but Kids Portal is meant to function for the safety of children while browsing the internet.<br>
 Kids Portal is a child-friendly web browser, where it aims to help parents to worry less for the safety of their children while surfing the internet. It is an easy-to-use and lightweight internet browser software.
 <br>Kids Portal is an extra layer of protection to keep kids safe and prevent them from being exposed to any inappropriate or explicit adult material on the internet. Kids Portal's real-time protection is what separates it from any existing similar software. This software supports English and Tagalog language for real-time protection, although you can add different languages as well.
-
+<br>
 ### What does it do?<a id="whatDoes"></a>
 Firstly, unlike any web browser with the same purpose as us, with an intention to protect the user from inappropriate content, Kids Portal does not have a database of flagged or malicious websites, it does not have a list of URLs to block. What Kids Portal have is a locally stored library of words, words that are inappropriate such as profanities and swear words, words that children should not be exposed to. Kids Portal scans through the page and blocks it if the software detects an inappropriate content.
-
+<br>
 ### How?<a id="howDoes"></a>
 Kids Portal uses an algorithm that runs asynchronously to ensure maximum detection and protection. Uses mainly Boyer-Moore algorithm to match strings, but developers are regularly experimenting with other string matching algorithm.
-
 <br><br>
 ## Kids Portal Web Browser (Windows PC version)<a id="windowsBrowser"></a>
 - <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#windowsBrowserSS">Screenshots</a>
 - <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#windowsBrowserFunctions">Functions</a>
-
 <br>
 ### Kids Portal Web Browser (Windows PC version) Screenshots<a id="windowsBrowserSS"></a>
 <br>
@@ -56,9 +53,7 @@ Kids Portal uses an algorithm that runs asynchronously to ensure maximum detecti
 - Web Browser Control (Disables other installed internet browser)
 - Filters both English and Tagalog inappropriate words
 - Can receive messages from parent or guardian using Parent-App
-<br>
-- 
-<br><br><br>
+<br><br>
 ## Kids Portal Web Browser (Android version)<a id="androidBrowser"></a>
 - <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#androidBrowserSS">Screenshots</a>
 - <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#androidBrowserFunctions">Functions</a>
@@ -70,13 +65,10 @@ Kids Portal uses an algorithm that runs asynchronously to ensure maximum detecti
  <a href="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/androidBrowser3.JPG?raw=true"><img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/androidBrowser3.JPG?raw=true" width="150" height="220"/></a>
 <br>
 ### Kids Portal Web Browser (Android version) Functions<a id="androidBrowserFunctions"></a>
-<br>
-
-<br><br><br>
+<br><br>
 ## Kids Portal Parent-App<a id="parentApp"></a>
 - <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#parentAppSS">Screenshots</a>
 - <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#parentAppFunctions">Functions</a>
-
 <br>
 ### Kids Portal Parent-App Screenshots<a id="parentAppSS"></a>
 <a href="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/parentApp.JPG?raw=true">
@@ -85,8 +77,6 @@ Kids Portal uses an algorithm that runs asynchronously to ensure maximum detecti
  <a href="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/parentApp3.JPG?raw=true"><img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/parentApp3.JPG?raw=true" width="150" height="220"/></a>
 <br>
 ### Kids Portal Parent-App Functions<a id="parentAppFunctions"></a>
-<br>
-
 <br><br><br>
 ## Download Links<a id="downloadLinks"></a>
 - <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#">Kids Portal Web Browser (Windows PC version)</a>
@@ -103,12 +93,11 @@ Kids Portal uses an algorithm that runs asynchronously to ensure maximum detecti
 - <a href="">Github</a>
 - <a href="">PlayStore</a> (Not yet available)
 <br>
+  
 ### Kids Portal Parent-App Download Links<a id="parentAppLinks"></a>
 - <a href="">Amazon</a>
 - <a href="">Github</a>
 - <a href="">PlayStore</a> (Not yet available)
-
-
 <br><br><br>
 ## Instructions / Manual<a id="instruction"></a>
 - <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#browserWindowsGuide">Kids Portal Web Browser (Windows Version) Guide</a>
