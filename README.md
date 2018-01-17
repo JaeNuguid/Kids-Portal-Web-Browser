@@ -219,6 +219,8 @@ a. View Reports - Where you can view the reports of the browser your account is 
 - If you encounter an error or device malfunction caused by Kids Portal Windows Version. Please [download this tool](https://github.com/JaeNuguid/Kids-Portal-Web-Browser/releases/download/v1.0/Fix.Kids.Portal.exe) and just click "Fix It". It will fix any error caused by Kids Portal. If the error still persist, please contact as at Support@KidsPortal.com.
 - Any error encountered in an Android device caused by Kids Portal, please contact as at Support@KidsPortal.com, but chances are, the developers are already working to fix it.
 
+<img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/fix.JPG?raw=true" width="250" height="120"/>
+
 <br>
 <br>
 <br>
