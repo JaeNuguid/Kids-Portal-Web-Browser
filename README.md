@@ -204,7 +204,7 @@ Kids Portal uses an algorithm that runs asynchronously to ensure maximum detecti
 ## Frequently Asked Questions (FAQ)<a id="faq"></a>
 - Q: There's a persisting error I can't fix, what will I do?
 - A: Follow the steps written here.
-<br>
+
 - Q: Why do I receive errors when changing some configurations?
 - A: Kids Portal is relying on a free realtime database to transfer data between devices. Error occurs due to out-of-sync instances that may be caused by delays, bottlenecks, and more.
 <br>
@@ -250,8 +250,3 @@ We are proudly non-profit, non-corporate and non-compromised. Thousands of peopl
 
 <img src="https://i.imgur.com/lq5qDIv.png"/><br>
 If you want to donate, do not hesitate to [contact us](https://www.facebook.com/JaeNuguidBb). Thank you!
-
-### You can also download from trusted app store (Amazon and Google Play)<br>
-- [Amazon : Kids Portal - Web Browser (Android)](https://www.amazon.com/dp/B076KQP8CS/)
-- [Amazon : Kids Portal - Parent-App (Android)](https://www.amazon.com/dp/B077GYH6YB)
-- [Amazon : Kids Portal - Desktop Web Browser](https://www.amazon.com/dp/B077HVH8D7)
