@@ -241,6 +241,11 @@ a. View Reports - Where you can view the reports of the browser your account is 
 
 <br>
 
+- Q: For Kids Portal Web Browser (Android version), how to change the account associated with it?
+- A: In the navigation bar, enter "//setting". You can then login and use a different account.
+
+<br>
+
 - Q: How can I fix errors or malfunction caused by Kids Portal?
 - A: Please refer to [this guide](https://jaenuguid.github.io/Kids-Portal-Web-Browser/#errorGuide).
 
