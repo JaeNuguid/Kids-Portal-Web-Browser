@@ -124,9 +124,9 @@ Kids Portal uses an algorithm that runs asynchronously to ensure maximum detecti
 <br>
 
 ## Download Links<a id="downloadLinks"></a>
-- <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#">Kids Portal Web Browser (Windows PC version)</a>
-- <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#">Kids Portal Web Browser (Android version)</a>
-- <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#">Kids Portal Parent-App</a>
+- <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#windowsLinks">Kids Portal Web Browser (Windows PC version)</a>
+- <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#androidLinks">Kids Portal Web Browser (Android version)</a>
+- <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#parentAppLinks">Kids Portal Parent-App</a>
 
 <br>
 <br>
@@ -170,21 +170,33 @@ Kids Portal uses an algorithm that runs asynchronously to ensure maximum detecti
 <br>
 
 ### Kids Portal Web Browser (Windows Version) Guide<a id="browserWindowsGuide"></a>
+1. Download and install [Kids Portal Web Browser](https://jaenuguid.github.io/Kids-Portal-Web-Browser/#windowsLinks).
+<br>2. Sign up and then enter your login credentials.
+<br>3. Click the Tool Icon, enter your login credentials, and then adjust the configurations that fits your desire.
 
-<br>
-<br>
-<br>
 
 ### Kids Portal Web Browser (Android version) Guide<a id="browserAndroidGuide"></a>
+1. Download and install [Kids Portal Web Browser](https://jaenuguid.github.io/Kids-Portal-Web-Browser/#androidLinks).
+<br>2. Sign up and then enter your login credentials.
 
 <br>
-<br>
-<br>
+
+a. The blue bar at the bottom is where all the controls are.
+- Navigation Bar - Where you can enter a URL address or search term
+- Swipe the Navigation Bar to left -  Where you can see the bookmarks
+- Swipe the Navigation Bar to right - Where you can see the saved Read Later websites
+- Press the History Icon - Where you can view the history
+- Press the 3 Dotted Icon - Where all of the browser settings are located
+
 
 ### Kids Poral Parent-App Guide<a id="parentAppGuide"></a>
-<br>1. Log in using your login credentials you used to register on Kids Portal Web Browser (Either Windows or Android version).
-<br>2. Once logged in, you will be able to use the functions View Reports, Send Message, Configure Browser, and a function to change your password.
-<br>a. View Reports - Where you can view the reports of the browser your account is linked to.
+1. Download and install [Kids Portal Parent-App](https://jaenuguid.github.io/Kids-Portal-Web-Browser/#parentAppLinks).
+<br>2 Log in using your login credentials you used to register on Kids Portal Web Browser (Either Windows or Android version).
+<br>3. Once logged in, you will be able to use the functions View Reports, Send Message, Configure Browser, and a function to change your password.
+
+<br>
+
+a. View Reports - Where you can view the reports of the browser your account is linked to.
 <br>b. Configure Browser - Where you can remotely configure the browser your account is linked to. 
 <br>c. Send Message - Where you can send message to the browser your account is linked to.
 <br>d. Change Password - Where you can change your account's password.
@@ -209,28 +221,44 @@ Kids Portal uses an algorithm that runs asynchronously to ensure maximum detecti
 
 - Q: Why do I receive errors when changing some configurations?
 - A: Kids Portal is relying on a free realtime database to transfer data between devices. Error occurs due to out-of-sync instances that may be caused by delays, bottlenecks, and more.
+
 <br>
+
 - Q: Why is there no registration form in Kids Portal Parent-App?
 - A: For security reasons.
+
 <br>
+
 - Q: How can I fix errors or malfunction caused by Kids Portal?
 - A: Please refer to [this guide](https://jaenuguid.github.io/Kids-Portal-Web-Browser/#errorGuide).
+
 <br>
-- Q:
-- A:
+
+- Q: dsad
+- A: asdsa
+
 <br>
-- Q:
-- A:
+
+- Q: dsaddsa
+- A: adsda
+
 <br>
-- Q:
-- A:
+
+- Q: asdasd
+- A: dasda
+
 <br>
+
 - Q: How does Kids Portal scrapes content from webpages?
 - A: Kids Portal uses the n
+
 <br>
+
 - Q: What's the algorithm used to match Strings?
 - A: Kids Portal mainly uses Boyer-Moore algorithm, but developers are regularly experimenting with other algorithms.
+
 <br>
+
 - Q: Is Kids Portal a finisehd product?
 - A: No, it is still in its infancy. The developers are regulary planning and developing new implementations to further improve the software. Hopefully with the help of contributors, Kids Portal may have a very bright future.
 
