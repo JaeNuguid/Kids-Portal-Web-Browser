@@ -27,6 +27,7 @@ namespace Kids_Portal
     public partial class Form1 : Form
     {
         #region variables
+        String currentStatus = "enabled";
         public Loading load;
         public Boolean done = false;
         Internet inter;
@@ -121,6 +122,7 @@ namespace Kids_Portal
                 settingData = account;
                 System.IO.File.WriteAllLines(path, account);
             }
+
             if (settingData[0].Equals("0") || settingData == null)
             {
                 Creation();
@@ -135,7 +137,10 @@ namespace Kids_Portal
                 settingData = System.IO.File.ReadAllLines(path);
                 username = settingData[1];
                password = settingData[2];
+
+                pullConfig();
                 setSetting();
+                pullConfig();
             }
 
             path = Path.Combine(appDataPath + @"\KidsPortal", "setting.txt");
@@ -341,9 +346,7 @@ namespace Kids_Portal
 
             if (masterVisible)
             {
-
-                Visible = true; 
-
+                
             //update history
             if (pageTitle.Length > 3)
                 if (previousTitle != pageTitle)
@@ -457,7 +460,7 @@ namespace Kids_Portal
 
                             //enable
                             block = false;
-
+                            break;
 
                         }
                         else
@@ -471,12 +474,10 @@ namespace Kids_Portal
                             {
                                 locks = 2;
                             }
-                            break;
+                           
                             // disable
                             //Disable Kids Portal / Logout Compter / Shutdown Computer
-
-
-
+                            
                         }
 
 
@@ -489,11 +490,14 @@ namespace Kids_Portal
             {
 
                 timeout = true;
-                if (Visible) Visible = false;
+                if (Visible)
+                {
+                    Visible = false;
+                    locked.Show();
+                    tray.Visible = true;
+                    tray.ShowBalloonTip(1000, "Kids Portal", "Override Kids Portal Lockdown here.", ToolTipIcon.Info);
 
-                masterVisible = false;
-                
-                locked.Show();
+                }
 
                 if (locks == 1)
                 {
@@ -507,12 +511,16 @@ namespace Kids_Portal
             }
             else
             {
-
-                masterVisible = true;
-
+                tray.Visible = false;
                 timeout = false;
                 locked.Hide();
-                if (!Visible) Visible = true;
+
+                if (!Visible)
+                {
+                    Visible = true;
+                    Show();
+                }
+                
                 return;
             }
         }
@@ -561,7 +569,7 @@ namespace Kids_Portal
                 
                 if (!safeWord(XTML))
                 {
-                    warn();
+                    warn(1);
                     return;
                 }
                 
@@ -585,7 +593,7 @@ namespace Kids_Portal
 
                 if (!safeWord(XTML) && set.protectionIsOn())
                 {
-                     warn();
+                    warn(0);
                     return;
                 }
                 
@@ -870,54 +878,84 @@ namespace Kids_Portal
 
         // Declaration
 
-        delegate void disableFatDel();
+        delegate void disableFatDel(int x);
 
-        public void disableFat()
+        public void disableFat(int x)
         {
-            pushReport(pageTitle, navBar.Text, DateTime.Now.ToString("d/MM/yyyy") + " " + DateTime.Now.ToString("hh:mm:ss tt"));
-            // MessageBox.Show("Inappropriate Website", "Kids Portal");
-            set.reportBox.Items.Add(DateTime.Now.ToString("d/MM/yyyy") + "\t" + DateTime.Now.ToString("hh:mm:ss tt") + "\t " + pageTitle + "\t" + navBar.Text);
+            if (x == 0)
+            {
+              
+                    pushReport(navBar.Text, navBar.Text, DateTime.Now.ToString("d/MM/yyyy") + " " + DateTime.Now.ToString("hh:mm:ss tt"));
+                    // MessageBox.Show("Inappropriate Website", "Kids Portal");
+                    set.reportBox.Items.Add(DateTime.Now.ToString("d/MM/yyyy") + "\t" + DateTime.Now.ToString("hh:mm:ss tt") + "\t " + navBar.Text + "\t" + navBar.Text);
+
+            }
+            else
+            {
+               
+                    pushReport(pageTitle, navBar.Text, DateTime.Now.ToString("d/MM/yyyy") + " " + DateTime.Now.ToString("hh:mm:ss tt"));
+                    // MessageBox.Show("Inappropriate Website", "Kids Portal");
+                    set.reportBox.Items.Add(DateTime.Now.ToString("d/MM/yyyy") + "\t" + DateTime.Now.ToString("hh:mm:ss tt") + "\t " + pageTitle + "\t" + navBar.Text);
+
+                
+            }
+
             set.updateReport();
             bc.Show();
             navBar.Enabled = false;
             previousTitle = pageTitle;
             currentHtml = "";
             timer1.Stop();
+
             jae.Load("about:blank");
-     
             load.Hide();
             navBar.Text = homepage;
             goHomepage();
             jae.Visible = true;
         }
 
-        public void warn() { 
+        public void warn(int x) {
 
-  
-            if (InvokeRequired)
+            if (x == 0)
             {
-                Invoke(new disableFatDel(disableFat));
-            }
-            else
-            {
-                pushReport(pageTitle, navBar.Text, DateTime.Now.ToString("d/MM/yyyy") + " " + DateTime.Now.ToString("hh:mm:ss tt"));
-                // MessageBox.Show("Inappropriate Website", "Kids Portal");
-                set.reportBox.Items.Add(DateTime.Now.ToString("d/MM/yyyy") + "\t" + DateTime.Now.ToString("hh:mm:ss tt") + "\t " + pageTitle + "\t" + navBar.Text);
-                set.updateReport();
-                bc.Show();
-                navBar.Enabled = false;
-                previousTitle = pageTitle;
-                currentHtml = "";
-                timer1.Stop();
+                if (InvokeRequired)
+                {
+                    Invoke(new disableFatDel(disableFat));
+                }
+                else
+                {
+                    pushReport(navBar.Text, navBar.Text, DateTime.Now.ToString("d/MM/yyyy") + " " + DateTime.Now.ToString("hh:mm:ss tt"));
+                    // MessageBox.Show("Inappropriate Website", "Kids Portal");
+                    set.reportBox.Items.Add(DateTime.Now.ToString("d/MM/yyyy") + "\t" + DateTime.Now.ToString("hh:mm:ss tt") + "\t " + navBar.Text + "\t" + navBar.Text);
 
-                jae.Load("about:blank");
-                load.Hide();
-                navBar.Text = homepage;
-                goHomepage();
-                jae.Visible = true;
+                }
             }
-           
+            else{
+                if (InvokeRequired)
+                {
+                    Invoke(new disableFatDel(disableFat));
+                }
+                else
+                {
+                    pushReport(pageTitle, navBar.Text, DateTime.Now.ToString("d/MM/yyyy") + " " + DateTime.Now.ToString("hh:mm:ss tt"));
+                    // MessageBox.Show("Inappropriate Website", "Kids Portal");
+                    set.reportBox.Items.Add(DateTime.Now.ToString("d/MM/yyyy") + "\t" + DateTime.Now.ToString("hh:mm:ss tt") + "\t " + pageTitle + "\t" + navBar.Text);
+                   
+                }
+            }
 
+            set.updateReport();
+            bc.Show();
+            navBar.Enabled = false;
+            previousTitle = pageTitle;
+            currentHtml = "";
+            timer1.Stop();
+
+            jae.Load("about:blank");
+            load.Hide();
+            navBar.Text = homepage;
+            goHomepage();
+            jae.Visible = true;
         }
         public void goHomepage()
         {
@@ -1292,10 +1330,10 @@ namespace Kids_Portal
             navBar.ForeColor = b;
 
             Boolean se = true, se2 = true;
-            if (settingData[5].Equals(false)) se = false; 
+            if (settingData[5].Equals("false")) se = false; 
             set.setProtection(se);
 
-            if (settingData[6].Equals(false)) se2 = false;
+            if (settingData[6].Equals("false")) se2 = false;
             set.setWebControl(se2);
 
             homepage = settingData[7];
@@ -1385,21 +1423,40 @@ namespace Kids_Portal
 
                 if (msg.Equals("enable"))
                 {
-                  
-                    enable();
+                    if (!currentStatus.Equals("enabled"))
+                    {
+
+                        currentStatus = "enabled";
+                        enable();
+                   
+                    }
 
                 }
                 else if (msg.Equals("disable"))
-                {  
-                    disable();
+                {
+
+                    if (!currentStatus.Equals("disabled"))
+                    {
+
+                        currentStatus = "disabled";
+                        disable();
+                    }
                 }
                 else if (msg.Equals("logout"))
                 {
-                    logout();
+                    if (!currentStatus.Equals("loggedout"))
+                    {
+                        currentStatus = "loggedout";
+                        logout();
+                    }
                 }
                 else if (msg.Equals("shutdown"))
                 {
-                    shutdown();
+                    if (!currentStatus.Equals("shutteddown"))
+                    {
+                        currentStatus = "shutteddown";
+                        shutdown();
+                    }
                 }
                 else if (msg.Equals("softReset"))
                 {
@@ -1478,6 +1535,7 @@ namespace Kids_Portal
 
         public void enable()
         {
+            
             masterVisible = true;
             Visible = true;
         }
@@ -1521,7 +1579,6 @@ namespace Kids_Portal
                 {
                     Hide();
                     set.setWebControl(false);
-                    
                 }
 
                 checkMessage();
@@ -1531,12 +1588,26 @@ namespace Kids_Portal
 
         private void closeClick(object sender, MouseEventArgs e)
         {
-
+        
             //nothing yet
             this.WindowState = FormWindowState.Minimized;
 
         }
 
+        private void settings_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void close_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tray_MouseClick(object sender, MouseEventArgs e)
+        {
+            acc.show(1);
+        }
     }
 }
 

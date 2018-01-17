@@ -44,6 +44,7 @@
             this.navBar = new System.Windows.Forms.TextBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.tray = new System.Windows.Forms.NotifyIcon(this.components);
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.home)).BeginInit();
@@ -196,6 +197,7 @@
             this.close.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.close.TabIndex = 7;
             this.close.TabStop = false;
+            this.close.Click += new System.EventHandler(this.close_Click);
             this.close.MouseDown += new System.Windows.Forms.MouseEventHandler(this.closeClick);
             this.close.MouseHover += new System.EventHandler(this.closeHover);
             // 
@@ -223,6 +225,7 @@
             this.settings.TabIndex = 8;
             this.settings.TabStop = false;
             this.settings.Visible = false;
+            this.settings.Click += new System.EventHandler(this.settings_Click);
             this.settings.MouseDown += new System.Windows.Forms.MouseEventHandler(this.settingClick);
             this.settings.MouseHover += new System.EventHandler(this.settingHover);
             // 
@@ -253,6 +256,15 @@
             // 
             this.timer2.Interval = 5000;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
+            // tray
+            // 
+            this.tray.BalloonTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            this.tray.BalloonTipText = "Override Lockdown Timer here.";
+            this.tray.BalloonTipTitle = "Kids Portal";
+            this.tray.Icon = ((System.Drawing.Icon)(resources.GetObject("tray.Icon")));
+            this.tray.Text = "Kids Portal";
+            this.tray.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tray_MouseClick);
             // 
             // Form1
             // 
@@ -300,6 +312,7 @@
         public System.Windows.Forms.TextBox navBar;
         public System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.NotifyIcon tray;
     }
 }
 

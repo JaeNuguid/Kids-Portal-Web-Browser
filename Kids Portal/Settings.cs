@@ -253,6 +253,7 @@ namespace Kids_Portal
 
             }
             webBrowserControl.Refresh();
+            
         }
         public void setProtection(bool x)
         {
@@ -946,7 +947,7 @@ namespace Kids_Portal
         private void pictureBox7_Click(object sender, EventArgs e)
         {
             MessageBox.Show("This will automatically detect any installed internet browser on your computer and block it if this function is enabled." +
-                "\n\nIn case you are using an uncommon internet browser, or it is not being detected by our Web Browser Control, please contact us for assistance.", "Kids Portal - Warning", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                "\n\nIn case you are using an uncommon internet browser, or it is not being detected by our Web Browser Control, please contact us for assistance.\n\nFor security reasons, if this function is turned off, it will turn back on after a restart.", "Kids Portal - Warning", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
 
@@ -981,7 +982,7 @@ namespace Kids_Portal
         {
 
             if (tabControl1.SelectedIndex == 7)
-            MessageBox.Show("Please use this function carefully", "Kids Portal - Warning", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Please use this function carefully, improper use of this function may result in an error. If an error persists, please visit our website for instructions.", "Kids Portal - Warning", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
 
