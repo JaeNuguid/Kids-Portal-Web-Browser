@@ -205,6 +205,8 @@ Kids Portal uses an algorithm that runs asynchronously to ensure maximum detecti
 - Q: There's a persisting error I can't fix, what will I do?
 - A: Follow the steps written here.
 
+<br>
+
 - Q: Why do I receive errors when changing some configurations?
 - A: Kids Portal is relying on a free realtime database to transfer data between devices. Error occurs due to out-of-sync instances that may be caused by delays, bottlenecks, and more.
 <br>
@@ -212,7 +214,7 @@ Kids Portal uses an algorithm that runs asynchronously to ensure maximum detecti
 - A: For security reasons.
 <br>
 - Q: How can I fix errors or malfunction caused by Kids Portal?
-- A: Please refer to this guide.
+- A: Please refer to [this guide](https://jaenuguid.github.io/Kids-Portal-Web-Browser/#errorGuide).
 <br>
 - Q:
 - A:
