@@ -62,7 +62,7 @@ Kids Portal uses an algorithm that runs asynchronously to ensure maximum detecti
 ### Kids Portal Web Browser (Windows PC version) Screenshots<a id="windowsBrowserSS"></a>
 <br>
 <a href="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/desktop.JPG?raw=true"><img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/desktop.JPG?raw=true" width="350" height="220" hspace="20"/></a>
-<a href="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/desktop2.JPG?raw=true"><img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/desktop2.JPG?raw=true" width="350" height="220"hspace="20"/></a>
+<a href="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/desktop2.JPG?raw=true"><img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/desktop2.JPG?raw=true" width="350" height="220" hspace="20"/></a>
 <a href="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/desktop3.JPG?raw=true"><img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/desktop3.JPG?raw=true" width="350" height="220"/></a>
  
 <br>
