@@ -1,1 +1,15 @@
 theme: jekyll-theme-cayman
+plugins:
+  - jekyll-seo-tag
+title: Kids Portal
+description: A child-friendly web browser that protects children from being exposed to inappropriate content on the internet
+url: https://jaenuguid.github.io/Kids-Portal-Web-Browser/
+author: Jae Allen Nuguid
+social:
+  name: Jae Allen Nuguid
+  links:
+    - https://www.facebook.com/JaeNuguidBb
+    - https://github.com/JaeNuguid
+    - https://www.linkedin.com/in/jaenuguid/
+webmaster_verifications:
+  google: aR6V2o4_VluqATxM9iNMcx3Kn5laUvCcC-LP5tRpQU
