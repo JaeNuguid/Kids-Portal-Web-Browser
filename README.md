@@ -100,6 +100,10 @@ Kids Portal uses an algorithm that runs asynchronously to ensure maximum detecti
 <br>
 
 ### Kids Portal Web Browser (Android version) Functions<a id="androidBrowserFunctions"></a>
+- Usual web browser functions (Bookmarks, History, Multiple Search Engines, Download Manager, and more)
+- Protection against inappropriate content
+- Filters both English and Tagalog inappropriate words
+- Can receive messages from parent or guardian using Parent-App
 
 <br>
 <br>
@@ -169,11 +173,14 @@ Kids Portal uses an algorithm that runs asynchronously to ensure maximum detecti
 <br>
 <br>
 
-### Kids Portal Web Browser (Windows Version) Guide<a id="browserWindowsGuide"></a>
+### Kids Portal Web Browser (Windows version) Guide<a id="browserWindowsGuide"></a>
 1. Download and install [Kids Portal Web Browser](https://jaenuguid.github.io/Kids-Portal-Web-Browser/#windowsLinks).
 <br>2. Sign up and then enter your login credentials.
 <br>3. Click the Tool Icon, enter your login credentials, and then adjust the configurations that fits your desire.
 
+<br>
+<br>
+<br>
 
 ### Kids Portal Web Browser (Android version) Guide<a id="browserAndroidGuide"></a>
 1. Download and install [Kids Portal Web Browser](https://jaenuguid.github.io/Kids-Portal-Web-Browser/#androidLinks).
@@ -188,6 +195,9 @@ a. The blue bar at the bottom is where all the controls are.
 - Press the History Icon - Where you can view the history
 - Press the 3 Dotted Icon - Where all of the browser settings are located
 
+<br>
+<br>
+<br>
 
 ### Kids Poral Parent-App Guide<a id="parentAppGuide"></a>
 1. Download and install [Kids Portal Parent-App](https://jaenuguid.github.io/Kids-Portal-Web-Browser/#parentAppLinks).
