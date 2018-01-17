@@ -1,7 +1,7 @@
 
 <center> 
 <a href="https://github.com/JaeNuguid">
-  <img src="https://github.com/JaeNuguid/Kids-Portal-Version-2/blob/master/newKidsPortal/Resources/KidsPortal.png?raw=true" width="250" height="250"/>
+  <img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/Kids%20Portal/Resources/KidsPortal.png?raw=true" width="250" height="250"/>
 </a>
 </center>
 
@@ -42,6 +42,7 @@ Kids Portal uses an algorithm that runs asynchronously to ensure maximum detecti
 
 <br>
 ### Kids Portal Web Browser (Windows PC version) Screenshots<a id="windowsBrowserSS"></a>
+<br>
 <a href="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/desktop.JPG?raw=true">
  <img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/desktop.JPG?raw=true" width="350" height="220" hspace="20"/></a>
  <a href="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/desktop2.JPG?raw=true"><img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/desktop2.JPG?raw=true" width="350" height="220"hspace="20"/></a>
