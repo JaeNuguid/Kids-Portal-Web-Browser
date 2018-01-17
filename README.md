@@ -166,7 +166,7 @@ Kids Portal uses an algorithm that runs asynchronously to ensure maximum detecti
 ## Instructions / Manual<a id="instruction"></a>
 - <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#browserWindowsGuide">Kids Portal Web Browser (Windows Version) Guide</a>
 - <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#browserAndroidGuide">Kids Portal Web Browser (Android version) Guide</a>
-- <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#parentAppGuide">Kids Poral Parent-App Guide</a>
+- <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#parentAppGuide">Kids Portal Parent-App Guide</a>
 - <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#errorGuide">Fix Kids Portal Error Guide</a>
 
 <br>
@@ -199,7 +199,7 @@ a. The blue bar at the bottom is where all the controls are.
 <br>
 <br>
 
-### Kids Poral Parent-App Guide<a id="parentAppGuide"></a>
+### Kids Portal Parent-App Guide<a id="parentAppGuide"></a>
 1. Download and install [Kids Portal Parent-App](https://jaenuguid.github.io/Kids-Portal-Web-Browser/#parentAppLinks).
 <br>2 Log in using your login credentials you used to register on Kids Portal Web Browser (Either Windows or Android version).
 <br>3. Once logged in, you will be able to use the functions View Reports, Send Message, Configure Browser, and a function to change your password.
@@ -230,7 +230,7 @@ a. View Reports - Where you can view the reports of the browser your account is 
 <br>
 
 - Q: Why do I receive errors when changing some configurations?
-- A: Kids Portal is relying on a free realtime database to transfer data between devices. Error occurs due to out-of-sync instances that may be caused by delays, bottlenecks, and more.
+- A: Kids Portal is relying on a free real-time database to transfer data between devices. Error occurs due to out-of-sync instances that may be caused by delays, bottlenecks, and more.
 
 <br>
 
@@ -259,7 +259,7 @@ a. View Reports - Where you can view the reports of the browser your account is 
 
 <br>
 
-- Q: How does Kids Portal scrapes content from webpages?
+- Q: How does Kids Portal scrapes content from web pages?
 - A: Kids Portal uses the native libraries and then HTML Agility Pack to parse the content. 
 
 <br>
@@ -269,8 +269,8 @@ a. View Reports - Where you can view the reports of the browser your account is 
 
 <br>
 
-- Q: Is Kids Portal a finisehd product?
-- A: No, it is still in its infancy. The developers are regulary planning and developing new implementations to further improve the softwar, hopefully with the help of contributors.
+- Q: Is Kids Portal a finished product?
+- A: No, it is still in its infancy. The developers are regularly planning and developing new implementations to further improve the software, hopefully with the help of contributors.
 
 <br>
 <br>
