@@ -225,7 +225,7 @@ a. View Reports - Where you can view the reports of the browser your account is 
 
 ## Frequently Asked Questions (FAQ)<a id="faq"></a>
 - Q: There's a persisting error I can't fix, what will I do?
-- A: Follow the steps written here.
+- A: Please refer to [this guide](https://jaenuguid.github.io/Kids-Portal-Web-Browser/#errorGuide).
 
 <br>
 
@@ -244,23 +244,23 @@ a. View Reports - Where you can view the reports of the browser your account is 
 
 <br>
 
-- Q: dsad
-- A: asdsa
+- Q: Are English and Tagalog the only supported language for protection(content filtering)?
+- A: Yes, as of now. However, developers are actively looking for an efficient solution that will support multiple Languages without affecting the device performance.
 
 <br>
 
-- Q: dsaddsa
-- A: adsda
+- Q: Why is this open-source?
+- A: Benefits such as cost, flexibility, freedom, security, and accountability. We also would like some help and guidance from professionals.
 
 <br>
 
-- Q: asdasd
-- A: dasda
+- Q: How is this open-source?
+- A: People can use, study, modify, and freely distribute both the codes and software.
 
 <br>
 
 - Q: How does Kids Portal scrapes content from webpages?
-- A: Kids Portal uses the n
+- A: Kids Portal uses the native libraries and then HTML Agility Pack to parse the content. 
 
 <br>
 
@@ -270,7 +270,7 @@ a. View Reports - Where you can view the reports of the browser your account is 
 <br>
 
 - Q: Is Kids Portal a finisehd product?
-- A: No, it is still in its infancy. The developers are regulary planning and developing new implementations to further improve the software. Hopefully with the help of contributors, Kids Portal may have a very bright future.
+- A: No, it is still in its infancy. The developers are regulary planning and developing new implementations to further improve the softwar, hopefully with the help of contributors.
 
 <br>
 <br>
