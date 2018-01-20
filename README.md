@@ -228,22 +228,22 @@ a. View Reports - Where you can view the reports of the browser your account is 
 <br>
 
 ## Frequently Asked Questions (FAQ)<a id="faq"></a>
-- Q: There's a persisting error I can't fix, what will I do?
+- Q: __There's a persisting error I can't fix, what will I do?__
 - A: Please refer to [this guide](https://jaenuguid.github.io/Kids-Portal-Web-Browser/#errorGuide).
 
 <br>
 
-- Q: Why do I receive errors when changing some configurations?
+- Q: __Why do I receive errors when changing some configurations?__
 - A: Kids Portal is relying on a free real-time database to transfer data between devices. Error occurs due to out-of-sync instances that may be caused by delays, bottlenecks, and more.
 
 <br>
 
-- Q: Why is there no registration form in Kids Portal Parent-App?
+- Q: __Why is there no registration form in Kids Portal Parent-App?__
 - A: For security reasons.
 
 <br>
 
-- Q: Why is there no logout option in Kids Portal Web Browser?
+- Q: __Why is there no logout option in Kids Portal Web Browser?__
 - A: There is, but it is kind of hidden.
 - A: In our web browser in PC version, you will have to log out through our [fix-it tool](https://jaenuguid.github.io/Kids-Portal-Web-Browser/#errorGuide), then restart you computer.
 - A: In our web browser in Android version, you will have to enter "//setting" in the navigation bar. Not actually logging out completely, but changing user account.
@@ -251,42 +251,42 @@ a. View Reports - Where you can view the reports of the browser your account is 
 
 <br>
 
-- Q: For Kids Portal Web Browser (Android version), how to change the account associated with it?
+- Q: __For Kids Portal Web Browser (Android version), how to change the account associated with it?__
 - A: In the navigation bar, enter "//setting". You can then login and use a different account.
 
 <br>
 
-- Q: How can I fix errors or malfunction caused by Kids Portal?
+- Q: __How can I fix errors or malfunction caused by Kids Portal?__
 - A: Please refer to [this guide](https://jaenuguid.github.io/Kids-Portal-Web-Browser/#errorGuide).
 
 <br>
 
-- Q: Are English and Tagalog the only supported language for protection(content filtering)?
-- A: Yes, as of now. However, developers are actively looking for an efficient solution that will support multiple Languages without affecting the device performance.
+- Q: __Are English and Tagalog the only supported language for protection(content filtering)?__
+- A: As of now, yes. However, developers are actively looking for an efficient solution that will support multiple Languages without affecting the device performance.
 
 <br>
 
-- Q: Why is this open-source?
+- Q: __Why is this open-source?__
 - A: Benefits such as cost, flexibility, freedom, security, and accountability. We also would like some help and guidance from professionals.
 
 <br>
 
-- Q: How is this open-source?
+- Q: __How is this open-source?__
 - A: People can use, study, modify, and freely distribute both the codes and software.
 
 <br>
 
-- Q: How does Kids Portal scrapes content from web pages?
+- Q: __How does Kids Portal scrapes content from web pages?__
 - A: Kids Portal uses the native libraries and then HTML Agility Pack to parse the content. 
 
 <br>
 
-- Q: What's the algorithm used to match Strings?
+- Q: __What's the algorithm used to match Strings?__
 - A: Kids Portal mainly uses Boyer-Moore algorithm, but developers are regularly experimenting with other algorithms.
 
 <br>
 
-- Q: Is Kids Portal a finished product?
+- Q: __Is Kids Portal a finished product?__
 - A: No, it is still in its infancy. The developers are regularly planning and developing new implementations to further improve the software, hopefully with the help of contributors.
 
 <br>
