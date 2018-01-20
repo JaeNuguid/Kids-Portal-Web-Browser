@@ -243,6 +243,14 @@ a. View Reports - Where you can view the reports of the browser your account is 
 
 <br>
 
+- Q: Why is there no logout option in Kids Portal Web Browser?
+- A: There is, but it is kind of hidden.
+- A: In our web browser in PC version, you will have to log out through our [fix-it tool](https://jaenuguid.github.io/Kids-Portal-Web-Browser/#errorGuide), then restart you computer.
+- A: In our web browser in Android version, you will have to enter "//setting" in the navigation bar. Not actually logging out completely, but changing user account.
+- A: These troublesome steps are for extra layer of security.
+
+<br>
+
 - Q: For Kids Portal Web Browser (Android version), how to change the account associated with it?
 - A: In the navigation bar, enter "//setting". You can then login and use a different account.
 
