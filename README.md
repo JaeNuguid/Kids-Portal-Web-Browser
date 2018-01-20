@@ -158,7 +158,7 @@ Kids Portal uses an algorithm that runs asynchronously to ensure maximum detecti
 ### Kids Portal Parent-App Download Links<a id="parentAppLinks"></a>
 - <a href="https://www.amazon.com/gp/product/B07933CJ67">Amazon</a>
 - <a href="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/releases/download/v1.0/Kids.Portal.Parent-App.apk">Github</a>
-- <a href="https://drive.google.com/open?id=1btYc4rwx2uXB2igAK67GAP6FLrgP6S_T">Google Drive</a> 
+- <a href="https://drive.google.com/open?id=1K7bez2q54NIFYyEgQxNNHQ5Zb5453yZx">Google Drive</a> 
 - <a href="">PlayStore</a> (Not yet available)
 
 <br>
