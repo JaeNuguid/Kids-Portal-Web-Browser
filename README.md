@@ -6,10 +6,12 @@
   
 <br>
   <a href="">
-  <img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/1.png?raw=true" width="280px" height="150px"/></a>
+  <img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/3.png?raw=true" width="280px" height="150px"/></a>
+  
     <a href="">
   <img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/2.png?raw=true" width="300px" height="150px"/></a>
-        <a href="">
+  
+    <a href="">
   <img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/3.png?raw=true" width="280px" height="150px"/>
 </a>
 </center>
