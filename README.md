@@ -5,12 +5,12 @@
   
   
 <br>
-  <a href="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/1.png?raw=true">
+  <a href="h">
   <img src="" width="50%" height="50%"/>
-    <a href="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/2.png?raw=true">
-  <img src="" width="50%" height="50%"/>
-        <a href="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/3.png?raw=true">
-  <img src="" width="50%" height="50%"/>
+    <a href="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/1.png?raw=true">
+  <img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/2.png?raw=true" width="50%" height="50%"/>
+        <a href="">
+  <img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/3.png?raw=true" width="50%" height="50%"/>
 </a>
   
 </center>
