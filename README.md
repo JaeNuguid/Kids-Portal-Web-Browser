@@ -1,12 +1,6 @@
 <center> 
 <a href="https://github.com/JaeNuguid">
-  <img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/Kids%20Portal/Resources/KidsPortal.png?raw=true" width="250" height="250"/>
-</a>
-  
-  
-<a href="https://github.com/JaeNuguid"><img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/1.png?raw=true" /></a>
-
-<a href="https://github.com/JaeNuguid"><img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/2.png?raw=true" /></a>
+  <img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/Kids%20Portal/Resources/KidsPortal.png?raw=true" width="250" height="250"/> </a> <a href="https://github.com/JaeNuguid"><img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/1.png?raw=true" /></a> <a href="https://github.com/JaeNuguid"><img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/2.png?raw=true" /></a>
 
 <br>
 
