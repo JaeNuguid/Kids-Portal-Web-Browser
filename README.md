@@ -5,7 +5,13 @@
   
   
 <br>
-<a href="https://github.com/JaeNuguid"><img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/3.png?raw=true" width="280" height="150"/></a><a href="https://github.com/JaeNuguid"><img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/2.png?raw=true" width="300" height="150"/></a><a href="https://github.com/JaeNuguid"><img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/3.png?raw=true" width="280" height="150"/></a>
+<a href="https://github.com/JaeNuguid"><img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/3.png?raw=true" width="280" height="150"/></a>
+
+<br><a href="https://github.com/JaeNuguid"><img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/2.png?raw=true" width="340" height="150"/></a>
+
+<br>
+
+<a href="https://github.com/JaeNuguid"><img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/3.png?raw=true" width="280" height="150"/></a>
 </center>
 
 # Table of Contents
