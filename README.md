@@ -5,7 +5,7 @@
   
 <br>
 
-<a href="https://github.com/JaeNuguid"><img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/1.png?raw=true" /></a> <a href="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/releases/download/v1.0/Kids.Portal.Setup.exe"><img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/2.png?raw=true" /></a> <a href="https://play.google.com/store/apps/details?id=com.parentapp.kidsportal.kidsprotal_parentapp"><img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/3.png?raw=true" /></a>
+<a href="https://play.google.com/store/apps/details?id=jae.KidsPortal.Browser"><img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/1.png?raw=true" /></a> <a href="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/releases/download/v1.0/Kids.Portal.Setup.exe"><img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/2.png?raw=true" /></a> <a href="https://play.google.com/store/apps/details?id=com.parentapp.kidsportal.kidsprotal_parentapp"><img src="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/blob/master/newKidsPortal/Resources/3.png?raw=true" /></a>
 </center>
 
 # Table of Contents
@@ -153,7 +153,7 @@ Kids Portal uses an algorithm that runs asynchronously to ensure maximum detecti
 - <a href=""><a href="https://www.amazon.com/gp/product/B0793ZKSDD">Amazon</a>
 - <a href="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/releases/download/v1.0/Kids.Portal.Web.Browser.apk">Github</a>
 - <a href="https://drive.google.com/open?id=1wMRoeU6ev5o8-Fbg4iNe2LU4Ps0R4uF6">Google Drive</a> 
-- <a href="">PlayStore</a> (Not yet available)
+- <a href="https://play.google.com/store/apps/details?id=jae.KidsPortal.Browser">PlayStore</a> 
 
 <br>
 <br>
@@ -163,8 +163,7 @@ Kids Portal uses an algorithm that runs asynchronously to ensure maximum detecti
 - <a href="https://www.amazon.com/gp/product/B07933CJ67">Amazon</a>
 - <a href="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/releases/download/v1.0/Kids.Portal.Parent-App.apk">Github</a>
 - <a href="https://drive.google.com/open?id=1K7bez2q54NIFYyEgQxNNHQ5Zb5453yZx">Google Drive</a> 
-- <a href="https://play.google.com/store/apps/details?id=com.parentapp.kidsportal.kidsprotal_parentapp">PlayStore</a> (Not yet available)
-
+- <a href="https://play.google.com/store/apps/details?id=com.parentapp.kidsportal.kidsprotal_parentapp">PlayStore</a> 
 <br>
 <br>
 <br>
