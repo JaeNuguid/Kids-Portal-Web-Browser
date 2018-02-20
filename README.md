@@ -131,6 +131,17 @@ Kids Portal uses an algorithm that runs asynchronously to ensure maximum detecti
 <br>
 <br>
 
+### Kids Portal - Parent App Functions<a id="parentAppFunctions"></a>
+- Monitor KP Web Browser reports
+- Remotely configure KP Web Browser
+- Send Message through KP Web Browser 
+- Check Online status
+- Remotely Shutdown/Logoff PC through Kids Portal
+
+<br>
+<br>
+<br>
+
 ## Download Links<a id="downloadLinks"></a>
 - <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#windowsLinks">Kids Portal Web Browser (Windows PC version)</a>
 - <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#androidLinks">Kids Portal Web Browser (Android version)</a>
