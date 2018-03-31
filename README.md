@@ -9,24 +9,24 @@
 </center>
 
 # Table of Contents
-- <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#about">About Kids Portal</a>
-- <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#windowsBrowser">Kids Portal Web Browser (Windows PC version)</a>
-- <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#androidBrowser">Kids Portal Web Browser (Android version)</a>
-- <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#parentApp">Kids Portal Parent-App</a>
-- <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#downloadLinks">Download Links</a>
-- <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#instructions">Instructions / Manual</a>
-- <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#faq">Frequently Asked Questions (FAQ)</a>
-- <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#developers">Developers</a>
-- <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#target">Donation</a>
+- <a href="#about">About Kids Portal</a>
+- <a href="#windowsBrowser">Kids Portal Web Browser (Windows PC version)</a>
+- <a href="#androidBrowser">Kids Portal Web Browser (Android version)</a>
+- <a href="#parentApp">Kids Portal Parent-App</a>
+- <a href="#downloadLinks">Download Links</a>
+- <a href="#instructions">Instructions / Manual</a>
+- <a href="#faq">Frequently Asked Questions (FAQ)</a>
+- <a href="#developers">Developers</a>
+- <a href="#target">Donation</a>
 
 <br>
 <br>
 <br>
 
 ## About Kids Portal<a id="about"></a>
-- <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#whatIs">What is Kids Portal?</a>
-- <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#whatDoes">What does it do?</a>
-- <a href="https://jaenuguid.github.io/Kids-Portal-Web-Browser/#howDoes">How does it do it?</a>
+- <a href="#whatIs">What is Kids Portal?</a>
+- <a href="#whatDoes">What does it do?</a>
+- <a href="#howDoes">How does it do it?</a>
 
 <br>
 <br>
