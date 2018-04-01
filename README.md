@@ -154,7 +154,7 @@ Kids Portal uses an algorithm that runs asynchronously to ensure maximum detecti
 ### Kids Portal Web Browser (Windows PC version) Download Links<a id="windowsLinks"></a>
 - <a href="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/releases/download/v1.0/Kids.Portal.Setup.exe">Amazon</a> 
 - <a href="https://github.com/JaeNuguid/Kids-Portal-Web-Browser/releases/download/v1.0/Kids.Portal.Setup.exe">Github</a>
-- <a href="https://drive.google.com/open?id=1lfH84rLqKqwEd3yNG02TV0F4bEuRT26j">Google Drive</a> 
+- <a href="https://drive.google.com/open?id=1b9GmdlWWdHbrfmgBKd-UUjbgpE5cZYC7">Google Drive</a> 
 
 <br>
 <br>
