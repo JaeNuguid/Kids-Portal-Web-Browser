@@ -12279,3 +12279,8 @@
 [0117/012047.370:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 27
 [0117/012048.916:WARNING:spdy_session.cc(2276)] Received HEADERS for invalid stream 33
 [0117/142119.122:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0401/235713.320:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0402/000015.901:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0402/000147.499:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0402/000314.461:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[0402/000825.047:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain

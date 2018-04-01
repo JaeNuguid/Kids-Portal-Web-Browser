@@ -8,3 +8,5 @@ C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids P
 C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\obj\Debug\Kids Portal.csproj.CoreCompileInputs.cache
 C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\obj\Debug\Kids Portal.exe
 C:\Users\johnson@entsgp\Documents\Visual Studio 2017\Projects\Kids Portal\Kids Portal\Kids Portal\obj\Debug\Kids Portal.pdb
+C:\Users\jaeal\Documents\GitHub\Kids-Portal-Web-Browser\Kids Portal\obj\Debug\Kids Portal.exe
+C:\Users\jaeal\Documents\GitHub\Kids-Portal-Web-Browser\Kids Portal\obj\Debug\Kids Portal.pdb

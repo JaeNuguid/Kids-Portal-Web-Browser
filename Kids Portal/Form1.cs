@@ -53,7 +53,6 @@ namespace Kids_Portal
         public String[] reportData = { "" };
         public Boolean timeout = false;
         public String[] timeData = { "" };
-        String checker2 = "https://www.google.com/search?safe=active&q=";
         public String homepage = "https://www.google.com/search?safe=active";
         public String pageURL;
         String[] searchEngine = { "https://www.google.com/search?safe=active&q=", "https://search.yahoo.com/search?p=", " http://www.bing.com/search?q=", "http://www.kiddle.co/s.php?q=", "http://www.kidrex.org/results/?q=", "https://www.youtube.com/results?search_query=", "en.wikipedia.org/w/index.php?search=" };
@@ -94,7 +93,7 @@ namespace Kids_Portal
                 userBrowsers.Add((string)browserKey.GetValue(null));
             }
             userBrowsers.Add("task manager");
-      
+            userBrowsers.Add("microsoft edge");
             navBar.Text = homepage;
             loadNavBar();
             
@@ -343,7 +342,7 @@ namespace Kids_Portal
 
         private async void timer1_TickAsync(object sender, EventArgs e)
         {
-
+            
             if (masterVisible)
             {
                 
@@ -365,11 +364,11 @@ namespace Kids_Portal
                                 await realTimeCheckAsync();
                         }
 
-                                                                            
 
-            //temporary
-           //set.setWebControl(false);
 
+                //temporary
+                //set.setWebControl(false);
+                String tempoBrow = "jiobevs";
             if (set.webBrowserControlIsOn())
             {
                 Process[] processCollection = Process.GetProcesses();
@@ -377,13 +376,23 @@ namespace Kids_Portal
                 {
                     foreach (Process p in processCollection)
                     {
+                            
                         if ((p.MainWindowTitle.ToString().ToLower().Contains(brows.ToLower())))
                         {
-                            set.reportBox.Items.Add(DateTime.Now.ToString("d/MM/yyyy") + "\t" + DateTime.Now.ToString("hh:mm:ss tt") + "\t " + "Web Browser Control" + "\tTried to open " + brows.ToLower());
-                            pushReport("Web Browser Control","User tried to open "+brows, DateTime.Now.ToString("d/MM/yyyy") + " " + DateTime.Now.ToString("hh:mm:ss tt"));
-                            set.updateReport();
 
-                            p.Kill();
+                            set.reportBox.Items.Add(DateTime.Now.ToString("d/MM/yyyy") + "\t" + DateTime.Now.ToString("hh:mm:ss tt") + "\t " + "Web Browser Control" + "\tTried to open " + brows.ToLower());
+                                if (tempoBrow != DateTime.Now.ToString("hh:mm tt")) {
+                                    tempoBrow = DateTime.Now.ToString("hh:mm tt");
+                                    pushReport("Web Browser Control", "User tried to open " + brows, DateTime.Now.ToString("d/MM/yyyy") + " " + DateTime.Now.ToString("hh:mm:ss tt"));
+                                }
+                                set.updateReport();
+                                try
+                                {
+                                    p.Kill();
+                                }catch(Exception ee)
+                                {
+                                    //Throws no error
+                                }
                             navBar.Enabled = false;
                             timer1.Stop();
                             bcw.Show();
@@ -1581,9 +1590,29 @@ namespace Kids_Portal
                     set.setWebControl(false);
                 }
 
+                pushOnline();
                 checkMessage();
                 checkStatus();
             }
+        }
+
+        public void pushOnline()
+        {
+            var json = Newtonsoft.Json.JsonConvert.SerializeObject(new
+            {
+                lastOnline = DateTime.Now.ToString("d/MM/yyyy") + " " + DateTime.Now.ToString("hhmm"),
+
+            });
+
+            var request = WebRequest.CreateHttp("https://kids-portal.firebaseio.com/Online/" + username + "/.json");
+            request.Method = "PATCH";
+            request.ContentType = "application/json";
+            var buffer = Encoding.UTF8.GetBytes(json);
+            request.ContentLength = buffer.Length;
+            request.GetRequestStream().Write(buffer, 0, buffer.Length);
+            var response = request.GetResponse();
+            json = (new StreamReader(response.GetResponseStream())).ReadToEnd();
+        
         }
 
         private void closeClick(object sender, MouseEventArgs e)
